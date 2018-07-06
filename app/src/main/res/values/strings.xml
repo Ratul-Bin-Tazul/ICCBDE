@@ -1,0 +1,1870 @@
+<resources>
+    <string name="app_name">ICCB DE</string>
+
+    <string name="head">১.    [নির্বাচিত অংশগ্রহণকারীদের পড়ে শোনান]</string>
+    <string name="consent_text">ব্র্যাক বিশ্ববিদ্যালয়ের পক্ষ থেকে আমরা গাইবান্ধায় তামাক ও তামাকজাত দ্রব্য সেবন সম্পর্কে তথ্য সংগ্রহ করছি। সংগ্রহীত তথ্য শুধুমাত্র জনসাস্থ্য খাতে গবেষণার কাজে ব্যাবহৃত হবে।
+দৈবচয়ন ভিত্তিতে আপনার পরিবারকে নির্বাচন করা হয়েছে। আপনার উত্তর একটি বৃহৎ জনগোষ্ঠীর প্রতিনিধিত্ব করবে, সুতরাং এটি আমাদের সাথে সাথে সমাজের কাছেও অনেক গুরুত্বপূর্ণ। সাক্ষাৎকারটি সম্পন্ন করতে ৯০ মিনিট সময় প্রয়োজন হবে। এই জরিপটিতে অংশগ্রহণ করা সম্পূর্ণই আপনার ইচ্ছাধীন। আপনি যে সকল তথ্য প্রদান করবেন তা সম্পূর্ণরূপে গোপন রাখা হবে এবং তা দিয়ে কোনভাবেই আপনার পরিচয় খুঁজে বের করা যাবে না। আপনার ব্যাক্তিগত তথ্য অন্য কাউকে বা অন্য কোন পরিবারকে দেয়া হবে না। আপনি যেকোনো সময় এই জরিপে অংশগ্রহণ করা থেকে নিজেকে প্রত্যাহার করতে পারেন এবং যেকোনো প্রশ্নের উত্তর প্রদান হতেও বিরত থাকতে পারেন।
+যদি জরিপটি সংক্রান্ত আপনার কিছু জানার থাকে তবে প্রদত্ত তথ্যের মাধ্যমে আমাদের সাথে যোগাযোগ করুন।
+আপনি যদি জরিপটিতে অংশগ্রহণে সম্মতি প্রদান করেন তবে আমরা সাক্ষাৎকার পর্ব শুরু করবো।</string>
+
+    <string name="consent1">২. পরিবার প্রধান কি অংশগ্রহণে সম্মতি প্রদান করছেন?</string>
+    <string name="consent2">৩.   স্ত্রী কি অংশগ্রহণে সম্মতি প্রদান করছেন?</string>
+
+    <string name="ha">হ্যা</string>
+    <string name="na">না</string>
+
+    <string name="ha_goTo3">হ্যা - ৩ নং এ যান</string>
+    <string name="na_end">না -  সাক্ষাৎকার শেষ করুন</string>
+    <string name="ha_start">হ্যা  - সাক্ষাৎকার শুরু করুন</string>
+
+
+    <!-- ignore everything above this -->
+    <!-- format: <string name="variable name">actual sentence</string> -->
+    <!-- must copy from microsoft word file and not pdf-->
+    <!-- copy the line below and add the rest -->
+
+    <!-- start of section1 -->
+    <string name="HV001">HV001: পরিবার প্রধানের নাম</string>
+
+    <string name="Section_1">১ম বিভাগঃ পরিচয়</string>
+
+    <string name="SID">জরিপ</string>
+    <string name="SID_1">Baseline</string>
+    <string name="SID_2">Endline</string>
+
+    <string name="HHID">HHID</string>
+
+
+
+    <string name="HV002">স্ত্রীর নাম</string>
+
+    <string name="HV003">ধর্ম</string>
+    <string name="HV003_1">মুসলমান</string>
+    <string name="HV003_2">হিন্দু</string>
+    <string name="HV003_3">খৃষ্টান</string>
+    <string name="HV003_4">বুদ্ধ</string>
+    <string name="HV003_5">অন্যান্য</string>
+
+    <string name="HV005">চর কোড</string>
+    <string name="HV005_1">জিয়াডাঙ্গা</string>
+    <string name="HV005_2">তিন থপা</string>
+    <string name="HV005_3">পূর্ব কঞ্চি পাড়া</string>
+    <string name="HV005_4">চর হরিচন্ডী</string>
+    <string name="HV005_5">জাঞ্জাইর (দক্ষিণ)</string>
+    <string name="HV005_6">কিসমত ঢোলী</string>
+    <string name="HV005_7">নামাপারা (উত্তর)</string>
+    <string name="HV005_8">উত্তর খোলাবাড়ি</string>
+    <string name="HV005_9">পশ্চিম আগলার চর</string>
+    <string name="HV005_10">জামিরা (দক্ষিণ)</string>
+    <string name="HV005_11">কুমারপাড়া</string>
+    <string name="HV005_12">আনন্দবাড়ি</string>
+    <string name="HV005_13">কালুর পাড়া</string>
+    <string name="HV005_14">দেলুয়াবাড়ি (পশ্চিম)</string>
+    <string name="HV005_15">টেংরাকান্দি (উত্তর)</string>
+    <string name="HV005_16">রাঘব</string>
+    <string name="HV005_17">দেলুয়াবাড়ি (পূর্ব)</string>
+    <string name="HV005_18">গুয়াবাড়ি</string>
+    <string name="HV005_19">গলনা (দক্ষিণ)</string>
+    <string name="HV005_20">হাটবাড়ি</string>
+    <string name="HV005_21">ভাজনডাঙ্গা</string>
+    <string name="HV005_22">মাঘুরি ঘাট</string>
+    <string name="HV005_23">কাবিলপুর</string>
+    <string name="HV005_24">দক্ষিণ খাটিয়ামারি (তালতলা)</string>
+    <string name="HV005_25">পাতিলবাড়ি</string>
+    <string name="HV005_26">পাগলার চর</string>
+    <string name="HV005_27">খাটিয়ামারি (পূর্ব)</string>
+    <string name="HV005_28">বোঁচাগাড়ি</string>
+    <string name="HV005_29">কোচখালি</string>
+    <string name="HV005_30">খামার কামারজানি</string>
+
+    <string name="HV006">অক্ষাংশ</string>
+
+    <string name="HV007">দ্রাঘিমাংশ</string>
+
+    <string name="HV008">ইউনিয়ন</string>
+
+    <string name="HV009">উপজেলা</string>
+
+    <string name="CA">RCT Group</string>
+    <string name="CA_1">নিয়ন্ত্রণ গ্রুপ</string>
+    <string name="CA_2">পোষ্টার</string>
+    <string name="CA_3">ডায়রি</string>
+
+    <string name="HV010">সাক্ষাৎকার গ্রহণকারীর কোড</string>
+
+    <string name="HV011">তত্ত্বাবধায়কের কোড</string>
+
+    <string name="HV012">সাক্ষাৎকার গ্রহনের তারিখ</string>
+
+    <string name="HV013">সাক্ষাৎকার শুরু হওয়ার সময় </string>
+
+    <string name="HV014">যোগাযোগের তথ্য: নাম</string>
+
+    <string name="HV015">যোগাযোগের তথ্য: মোবাইল ফোন নাম্বার</string>
+
+    <string name="HV016">যোগাযোগের তথ্য: মোবাইল ফোনটি কার</string>
+    <string name="HV016_1">পরিবার প্রধান</string>
+    <string name="HV016_2">প্রতিবেশি</string>
+    <string name="HV016_3">স্ত্রী</string>
+    <string name="HV016_4">অন্যান্য</string>
+
+    <!-- end of section 1 -->
+
+    <!-- start of section 2-->
+
+    <string name="Section_2">২য় বিভাগঃ পরিবারের সদস্য সমূহ </string>
+    <string name="HV101">HV101: MID</string>
+    <string name="HV102">HV102: নাম</string>
+    <string name="HV103">HV103: পরিবার প্রধানের সাথে সম্পর্ক</string>
+    <string name="HV103_code1_1">পরিবার প্রধান</string>
+    <string name="HV103_code1_2">স্বামী/স্ত্রী</string>
+    <string name="HV103_code1_3">ছেলে</string>
+    <string name="HV103_code1_4">মেয়ে</string>
+    <string name="HV103_code1_5">ভাই/বোন</string>
+    <string name="HV103_code1_6">বাবা/মা</string>
+    <string name="HV103_code1_7">শ্বশুর/শাশুড়ি</string>
+    <string name="HV103_code1_8">পুত্র বধু/মেয়ে জামাই</string>
+    <string name="HV103_code1_9">দুলাভাই/ভাবী</string>
+    <string name="HV103_code1_10">নাতি/নাতনি</string>
+    <string name="HV103_code1_11">ভাইগ্না/ভাগ্নি</string>
+    <string name="HV103_code1_12">অন্যান্য আত্মীয়</string>
+    <string name="HV103_code1_13">লজিং মাষ্টার</string>
+    <string name="HV103_code1_14">স্থায়ী কাজের লোক</string>
+    <string name="HV103_code1_15">অন্যান্য, আত্মীয় নয় এমন</string>
+    <string name="HV104">HV104: উক্ত সদস্য কি কোনভাবে অক্ষম</string>
+    <string name="HV105">HV105: বয়স</string>
+    <string name="HV106">HV106: লিঙ্গ </string>
+    <string name="HV106_1">পুরুষ</string>
+    <string name="HV106_2">নারী</string>
+    <string name="HV107">HV107: বর্তমানে স্কুলে যাচ্ছে</string>
+    <string name="HV108">HV108: বর্তমানে বাড়িতে আছেন</string>
+    <string name="HV109">HV109: বিগত ১২ মাসে অস্থায়ীভাবে কোথাও বসবাস করেছেন?</string>
+    <string name="HV110">HV110: বাসস্থান পরিবর্তনের কারণ</string>
+    <string name="HV110_code2_1">মঙ্গা</string>
+    <string name="HV110_code2_2">বন্যা</string>
+    <string name="HV110_code2_3">জীবিকা উপার্জনের তাগিদে</string>
+    <string name="HV110_code2_4">বেকারত্ব</string>
+    <string name="HV110_code2_5">ঋণ পরিশোধ</string>
+    <string name="HV110_code2_6">অন্যান্য</string>
+    <string name="HV111">HV111: বৈবাহিক অবস্থা</string>
+    <string name="HV111_code3_1">অবিবাহিত</string>
+    <string name="HV111_code3_2">বিবাহিত</string>
+    <string name="HV111_code3_3">বিধবা/বিপত্নীক</string>
+    <string name="HV111_code3_4">তালাক প্রাপ্ত</string>
+    <string name="HV111_code3_5">আলাদা থাকেন</string>m
+    <string name="HV112">HV112: উচ্চতা (ইঞ্চিতে)</string>
+    <string name="HV113">HV113: ওজন (কেজিতে)</string>
+    <string name="HV114">HV114: স্বাক্ষর</string>
+    <string name="HV114_code4_1">পড়তে লিখতে পারেন না</string>
+    <string name="HV114_code4_2">শুধুমাত্র দস্তখৎ</string>
+    <string name="HV114_code4_3">পড়তে পারেন</string>
+    <string name="HV114_code4_4">পড়তে লিখতে পারেন</string>
+    <string name="HV115">HV115: শিক্ষাগত যোগ্যতা (সর্বোচ্চ পাশকৃত শ্রেণী) </string>
+    <string name="HV115_code5_0">শিক্ষা নেই</string>
+    <string name="HV115_code5_1">১ম শ্রেণী</string>
+    <string name="HV115_code5_2">২য় শ্রেণী</string>
+    <string name="HV115_code5_3">৩য় শ্রেণী</string>
+    <string name="HV115_code5_4">চতুর্থ শ্রেণী</string>
+    <string name="HV115_code5_5">পিইসি/সমমান</string>
+    <string name="HV115_code5_6">ষষ্ঠ শ্রেণী</string>
+    <string name="HV115_code5_7">সপ্তম শ্রেণী</string>
+    <string name="HV115_code5_8">জেএসসি/সমমান</string>
+    <string name="HV115_code5_9">৯ম শ্রেণী</string>
+    <string name="HV115_code5_10">মাধ্যমিক/সমমান</string>
+    <string name="HV115_code5_11">উচ্চ মাধ্যমিক/সমমান</string>
+    <string name="HV115_code5_12">ভোকেশনাল</string>
+    <string name="HV115_code5_13">কারিগরি শিক্ষা</string>
+    <string name="HV115_code5_14">সম্মান</string>
+    <string name="HV115_code5_15">অন্যান্য</string>
+    <string name="HV116">HV116: উপার্জন করেন?</string>
+    <string name="HV117">HV117: মুখ্য পেশা</string>
+    <string name="HV117_code6_1">কৃষিকাজ </string>
+    <string name="HV117_code6_2">গবাদি পশু পাখি </string>
+    <string name="HV117_code6_3">শিল্প উদ্যোগ</string>
+    <string name="HV117_code6_4">বানিজ্য</string>
+    <string name="HV117_code6_5">পরিবহন (নৌকা, রিকশা ইত্যাদি)</string>
+    <string name="HV117_code6_6">নির্মাণ কাজ</string>
+    <string name="HV117_code6_7">স্ব নির্ভর</string>
+    <string name="HV117_code6_8">বিবিধ কাজকর্ম</string>
+    <string name="HV117_code6_9">অন্যান্য </string>
+    <string name="HV118">HV118: গৌণ পেশা</string>
+    <string name="HV118_code6_1">কৃষিকাজ </string>
+    <string name="HV118_code6_2">গবাদি পশু পাখি </string>
+    <string name="HV118_code6_3">শিল্প উদ্যোগ</string>
+    <string name="HV118_code6_4">বানিজ্য</string>
+    <string name="HV118_code6_5">পরিবহন (নৌকা, রিকশা ইত্যাদি)</string>
+    <string name="HV118_code6_6">নির্মাণ কাজ</string>
+    <string name="HV118_code6_7">স্ব নির্ভর</string>
+    <string name="HV118_code6_8">বিবিধ কাজকর্ম</string>
+    <string name="HV118_code6_9">অন্যান্য </string>
+
+    <!-- end of section 2 -->
+
+    <!-- start of section 3 -->
+
+    <string name="Section_3">৩য় বিভাগঃ বসবাস পরিস্থিতি</string>
+
+    <string name="HV201">আপনার বাড়িতে কয়টি কক্ষ আছে?</string>
+
+    <string name="HV202">অন্য কোন পরিবার কি আপনার সাথে একই রান্নাঘর ব্যাবহার করেন?</string>
+    <string name="HV202_1"> হ্যাঁ</string>
+    <string name="HV202_2">না</string>
+
+    <string name="HV203">কি ধরণের চুলা ব্যাবহার করেন?</string>
+    <string name="HV203_1"> বৈদ্যুতিক</string>
+    <string name="HV203_2">গ্যাস</string>
+    <string name="HV203_3">অন্যান্য</string>
+
+    <string name="HV204">রান্নার জ্বালানী হিসেবে প্রধানত কি ব্যাবহার করেন?</string>
+    <string name="HV204_1">চেলা কাঠ</string>
+    <string name="HV204_2">কেরোসিন</string>
+    <string name="HV204_3">গোবর</string>
+    <string name="HV204_4">কয়লা</string>
+    <string name="HV204_5">এলপি গ্যাস</string>
+    <string name="HV204_6">অন্যান্য </string>
+
+    <string name="HV205">মূল বসতবাড়ির দেয়াল কি দিয়ে তৈরি?</string>
+    <string name="HV205_1">ছন/ বাঁশ/পলিথিন/ প্লাস্টিক/ ক্যানভাস </string>
+    <string name="HV205_2">মাটি/ কাঁচা ইট  </string>
+    <string name="HV205_3">টিন (সিআই শিট) </string>
+    <string name="HV205_4">কাঠ </string>
+    <string name="HV205_5">ইট/ সিমেন্ট </string>
+    <string name="HV205_6">অন্যান্য  </string>
+
+    <string name="HV206">মূল বসতবাড়ির মেঝে কি দিয়ে তৈরি? </string>
+    <string name="HV206_1">ছন/ বাঁশ/ ক্যানভাস  </string>
+    <string name="HV206_2">মাটি/ কাঁচা ইট  </string>
+    <string name="HV206_3">টিন (সিআই শিট)   </string>
+    <string name="HV206_4">কাঠ </string>
+    <string name="HV206_5">ইট/ সিমেন্ট </string>
+    <string name="HV206_6">অন্যান্য  </string>
+
+    <string name="HV207">মূল বসতবাড়ির ছাঁদ কি দিয়ে তৈরি? </string>
+    <string name="HV207_1">ছন/ বাঁশ/পলিথিন/ প্লাস্টিক/ ক্যানভাস  </string>
+    <string name="HV207_2">টিন (সিআই শিট)  </string>
+    <string name="HV207_3">কাঠ  </string>
+    <string name="HV207_4">ইট/ সিমেন্ট  </string>
+    <string name="HV207_5">অন্যান্য  </string>
+
+    <string name="HV208">পরিবারের সদস্যরা কি ধরণের ল্যাট্রিন ব্যাবহার করেন? </string>
+    <string name="HV208_1">স্যানিটারি  </string>
+    <string name="HV208_2">পাকা ল্যাট্রিন (Water Seal) </string>
+    <string name="HV208_3">পাকা ল্যাট্রিন (Pit) </string>
+    <string name="HV208_4">কাঁচা ল্যাট্রিন (স্থায়ী)   </string>
+    <string name="HV208_5">কাঁচা ল্যাট্রিন (অস্থায়ী)   </string>
+    <string name="HV208_6">খোলা জায়গা (কোন ল্যাট্রিন নেই)  </string>
+
+    <string name="HV209">অন্য কোন পরিবার কি আপনাদের সাথে একই ল্যাট্রিন ব্যাবহার করেন? </string>
+    <string name="HV209_1"> হ্যাঁ</string>
+    <string name="HV209_2"> না </string>
+
+    <string name="HV210">খাবার পানির প্রধান উৎস কি? </string>
+    <string name="HV210_1"> সাপ্লাই </string>
+    <string name="HV210_2"> টিউবওয়েল </string>
+    <string name="HV210_3">পুকুর/ নদী </string>
+    <string name="HV210_4">কুয়া </string>
+    <string name="HV210_5">ঝরনা </string>
+    <string name="HV210_6">অন্যান্য</string>
+
+    <string name="HV211">পানি পানের পূর্বে তা কি ফুটিয়ে নেয়া হয়? </string>
+    <string name="HV211_1">  হ্যাঁ </string>
+    <string name="HV211_2">  না </string>
+
+    <string name="HV212">আপনার টিউবওয়েলটি কি আর্সেনিক পরীক্ষিত? </string>
+    <string name="HV212_1">  হ্যাঁ </string>
+    <string name="HV212_2">  না </string>
+
+    <string name="HV213">সেটি কি আর্সেনিক যুক্ত? </string>
+    <string name="HV213_1">  হ্যাঁ </string>
+    <string name="HV213_2">  না </string>
+
+    <string name="HV214">আপনি কি মশার কয়েল ব্যাবহার করেন? </string>
+    <string name="HV214_1">  হ্যাঁ </string>
+    <string name="HV214_2">  না </string>
+
+    <string name="HV215">আপনি কি ধুপ ব্যাবহার করেন? </string>
+    <string name="HV215_1">  হ্যাঁ </string>
+    <string name="HV215_2">  না </string>
+
+    <string name="HV216">আপনার বাড়িতে কি সোলার সংযোগ আছে? </string>
+    <string name="HV216_1">  হ্যাঁ </string>
+    <string name="HV216_2">  না </string>
+
+    <string name="HV217">দিনে কত ঘন্টা আপনার বাড়িতে সোলার দিয়ে লাইট, ফ্যান ইত্যাদি চালানো হয়? </string>
+
+    <string name="HV218">আপনার বর্তমান বসতবাড়িটির মত একটি বাড়ি যদি কিনতে বা বানাতে যান, তবে সেটির খরচ কত পরবে? </string>
+
+    <!-- end of section 3-->
+
+    <!-- start of section 4 -->
+
+    <string name="Section_4">৪র্থ বিভাগঃ খরচের হিসাব</string>
+
+    <string name="Weekly">পণ্যের সাপ্তাহিক মূল্য</string>
+
+    <string name="HV401">খাদ্য শস্য</string>
+    <string name="HV402">ডাল</string>
+    <string name="HV403">মাছ</string>
+    <string name="HV404">ডিম</string>
+    <string name="HV405">মাংস</string>
+    <string name="HV406">সবজি</string>
+    <string name="HV407">দুধ এবং দুগ্ধজাত পণ্য</string>
+    <string name="HV408">মিষ্টান্ন</string>
+    <string name="HV409">তেল এবং তেল জাতীয়</string>
+    <string name="HV410">ফল</string>
+    <string name="HV411">পানীয়</string>
+    <string name="HV412">চিনি এবং গুড়</string>
+    <string name="HV413">অন্যান্য</string>
+    <string name="HV414">বাইরে খেতে যাওয়া </string>
+    <string name="HV415">তামাক ও তামাকজাত পণ্য</string>
+    <string name="HV416">মশলা</string>
+    <string name="HV417">পান</string>
+
+    <string name="Monthly">পণ্যের মাসিক মূল্য</string>
+
+    <string name="HV418">বিদ্যুৎ ও জ্বালানী</string>
+    <string name="HV419">প্রসাধনী এবং অন্যান্য</string>
+    <string name="HV420">পরিষ্কার পরিচ্ছন্নতা বিষয়ক খরচ</string>
+    <string name="HV421">পরিবহণ/ভ্রমণ এবং অন্যান্য</string>
+
+    <string name="Annual">পণ্যের বাৎসরিক মূল্য</string>
+
+    <string name="HV422">তৈরি পোশাক</string>
+    <string name="HV423">জামার কাপড় এবং তৈরি</string>
+    <string name="HV424">জুতা, স্যান্ডেল ইত্যাদি</string>
+    <string name="HV425">পরিবারের ব্যাবহারের বস্ত্র</string>
+    <string name="HV426">বসতবাড়ি সংক্রান্ত খরচ</string>
+    <string name="HV427">চিকিৎসা ব্যয় (পুরুষ)</string>
+    <string name="HV428">চিকিৎসা ব্যয় (নারী)</string>
+    <string name="HV429">শিক্ষা ব্যয় (পুরুষ)</string>
+    <string name="HV430">শিক্ষা ব্যয় (নারী)</string>
+    <string name="HV431">টাকা পাঠানো, অনুষ্ঠান</string>
+    <string name="HV432">অবসর ও বিনোদন</string>
+
+    <!-- end of section 4-->
+
+
+    <!--start of section 5-->
+
+    <string name="Section_05">সন্তানদের পড়ালেখার মূল্যায়ন </string>
+
+    <string name="HV101_1">MID (দ্বিতীয় অধ্যায় থেকে  MID অনুসরণ করুন) </string>
+
+    <string name="HV107_another">আপনার সন্তান কি বর্তমানে স্কুলে পড়ছে?</string>
+    <string name="HV107_1">হ্যাঁ</string>
+    <string name="HV107_2">না</string>
+
+    <string name="HC102">যদি না হয় তাহলে কেন?</string>
+    <string name="HC102_code1_1">খরচ যোগানো সম্ভব নয়</string>
+    <string name="HC102_code1_2">স্কুল অনেক দূরে</string>
+    <string name="HC102_code1_3">অসুস্থ</string>
+    <string name="HC102_code1_4">ঘরের কাজে সাহায্য করতে হয়</string>
+    <string name="HC102_code1_5">টাকা উপার্জন করার জন্যে</string>
+    <string name="HC102_code1_6">বিবাহিত</string>
+    <string name="HC102_code1_7">স্কুল পছন্দ করে না</string>
+    <string name="HC102_code1_8">স্কুলের মান ভালো নয়</string>
+    <string name="HC102_code1_9">এলাকায় কোন স্কুল নেই</string>
+    <string name="HC102_code1_10">স্কুলের জন্য তৈরি নয়</string>
+    <string name="HC102_code1_11">অন্যান্য </string>
+
+    <string name="HC103">আপনার সন্তান কোন শ্রেণীতে পড়ছে?</string>
+
+    <string name="HC104">আপনার সন্তান সর্বশেষ পরিক্ষায় উত্তীর্ণ না অনুত্তীর্ণ হয়েছে?</string>
+    <string name="HC104_1">উত্তীর্ণ</string>
+    <string name="HC104_2">অনুত্তীর্ণ</string>
+
+    <string name="HC105">আপনার সন্তান দিনে কত ঘন্টা পড়ালেখা করে? </string>
+
+    <string name="HC106">আপনার সন্তান ঘরের কাজে কতক্ষণ সাহায্য করে?(ঘন্টায়)</string>
+
+    <string name="HC107">আপনার সন্তান কি কোন ধরণের চাকরি করে?</string>
+    <string name="HC107_1">হ্যাঁ</string>
+    <string name="HC107_2">না</string>
+
+    <string name="HC108">আপনার সন্তানের পেশা কি?</string>
+    <string name="HC108_code2_1">কৃষি কাজ </string>
+    <string name="HC108_code2_2">গবাদি পশু পালন </string>
+    <string name="HC108_code2_3">কারখানা শ্রমিক</string>
+    <string name="HC108_code2_4">মেকানিক </string>
+    <string name="HC108_code2_5">বেচা কেনা </string>
+    <string name="HC108_code2_6">পরিবহণ (নৌকা, রিকশা ইত্যাদি) </string>
+    <string name="HC108_code2_7">নির্মাণ শ্রমিক </string>
+    <string name="HC108_code2_8">স্বনির্ভর </string>
+    <string name="HC108_code2_9">বিবিধ কাজকর্ম</string>
+    <string name="HC108_code2_10">ছাত্র </string>
+    <string name="HC108_code2_11">অন্যান্য </string>
+
+    <string name="HC109">আপনার সন্তান দিনে কত ঘন্টা চাকরি করে?</string>
+
+    <!-- end of section 5 -->
+
+    <!-- start of section 6b (new) -->
+    <string name="Section_6b">৬ষ্ঠ বিভাগ খঃ পুত্রবধূর সংক্রান্ত তথ্য </string>
+
+    <string name="HD100">আপনার কি কোন পুত্র বধু আছে?</string>
+    <string name="HD100_1">হ্যাঁ</string>
+    <string name="HD100_2">না</string>
+
+
+
+    <string name="HD102">বিয়ের সময় বয়স</string>
+
+    <string name="HD114">আপনার কত তম ছেলে সন্তানের পুত্র বধু?</string>
+
+    <string name="HD115">আপনার পুত্রবধূর পিতার শিক্ষাগত যোগ্যতা কত?</string>
+    <string name="HD115_code1_0">শিক্ষা নেই</string>
+    <string name="HD115_code1_1">১ম শ্রেণী</string>
+    <string name="HD115_code1_2">২য় শ্রেণী</string>
+    <string name="HD115_code1_3">৩য় শ্রেণী</string>
+    <string name="HD115_code1_4">চতুর্থ শ্রেণী</string>
+    <string name="HD115_code1_5">পিইসি/সমমান</string>
+    <string name="HD115_code1_6">ষষ্ঠ শ্রেণী</string>
+    <string name="HD115_code1_7">সপ্তম শ্রেণী</string>
+    <string name="HD115_code1_8">জেএসসি/সমমান</string>
+    <string name="HD115_code1_9">৯ম শ্রেণী</string>
+    <string name="HD115_code1_10">মাধ্যমিক/সমমান</string>
+    <string name="HD115_code1_11">উচ্চ মাধ্যমিক/সমমান</string>
+    <string name="HD115_code1_12">ভোকেশনাল</string>
+    <string name="HD115_code1_13">কারিগরি শিক্ষা</string>
+    <string name="HD115_code1_14">সম্মান</string>
+    <string name="HD115_code1_15">অন্যান্য</string>
+
+    <string name="HD116">শিক্ষার ধরণ</string>
+    <string name="HD116_1">জাতীয়</string>
+    <string name="HD116_2">মাদ্রাসা</string>
+
+    <string name="HD117">আপনার পুত্রবধূর মাতার শিক্ষাগত যোগ্যতা কত?</string>
+    <string name="HD117_code1_0">শিক্ষা নেই</string>
+    <string name="HD117_code1_1">১ম শ্রেণী</string>
+    <string name="HD117_code1_2">২য় শ্রেণী</string>
+    <string name="HD117_code1_3">৩য় শ্রেণী</string>
+    <string name="HD117_code1_4">চতুর্থ শ্রেণী</string>
+    <string name="HD117_code1_5">পিইসি/সমমান</string>
+    <string name="HD117_code1_6">ষষ্ঠ শ্রেণী</string>
+    <string name="HD117_code1_7">সপ্তম শ্রেণী</string>
+    <string name="HD117_code1_8">জেএসসি/সমমান</string>
+    <string name="HD117_code1_9">৯ম শ্রেণী</string>
+    <string name="HD117_code1_10">মাধ্যমিক/সমমান</string>
+    <string name="HD117_code1_11">উচ্চ মাধ্যমিক/সমমান</string>
+    <string name="HD117_code1_12">ভোকেশনাল</string>
+    <string name="HD117_code1_13">কারিগরি শিক্ষা</string>
+    <string name="HD117_code1_14">সম্মান</string>
+    <string name="HD117_code1_15">অন্যান্য</string>
+
+    <string name="HD118">শিক্ষার ধরণ</string>
+    <string name="HD118_1">জাতীয়</string>
+    <string name="HD118_2">মাদ্রাসা</string>
+
+    <string name="HD119">আপনার পুত্রবধূর পিতার পেশা কি?</string>
+    <string name="HD119_code2_1">কৃষি কাজ </string>
+    <string name="HD119_code2_2">গবাদি পশু পালন </string>
+    <string name="HD119_code2_3">কারখানা শ্রমিক</string>
+    <string name="HD119_code2_4">মেকানিক</string>
+    <string name="HD119_code2_5">বেচা কেনা</string>
+    <string name="HD119_code2_6">পরিবহণ (নৌকা, রিকশা ইত্যাদি)</string>
+    <string name="HD119_code2_7">নির্মাণ শ্রমিক</string>
+    <string name="HD119_code2_8">স্বনির্ভর</string>
+    <string name="HD119_code2_9">বিবিধ কাজ কর্ম</string>
+    <string name="HD119_code2_10">অন্যান্য (……………………………)</string>
+
+    <string name="HD120">আপনার পুত্রবধূর মাতার পেশা কি?</string>
+    <string name="HD120_code2_1">কৃষি কাজ </string>
+    <string name="HD120_code2_2">গবাদি পশু পালন </string>
+    <string name="HD120_code2_3">কারখানা শ্রমিক</string>
+    <string name="HD120_code2_4">মেকানিক</string>
+    <string name="HD120_code2_5">বেচা কেনা</string>
+    <string name="HD120_code2_6">পরিবহণ (নৌকা, রিকশা ইত্যাদি)</string>
+    <string name="HD120_code2_7">নির্মাণ শ্রমিক</string>
+    <string name="HD120_code2_8">স্বনির্ভর</string>
+    <string name="HD120_code2_9">বিবিধ কাজ কর্ম</string>
+    <string name="HD120_code2_10">অন্যান্য (……………………………)</string>
+
+    <string name="HD121">বিয়ের সময় আপনার পুত্রবধূর পিতা কি জীবিত ছিলেন?</string>
+    <string name="HD121_1">হ্যাঁ</string>
+    <string name="HD121_2">না</string>
+
+    <string name="HD122">আপনার পুত্রবধূর কি কোন ভাইবোন রয়েছে?</string>
+    <string name="HD122_1">হ্যাঁ</string>
+    <string name="HD122_2">না</string>
+
+    <string name="HD123">ভাইয়ের সংখ্যা</string>
+
+    <string name="HD124">বোনের সংখ্যা</string>
+
+    <string name="HD125">বিয়ের পূর্বে, আপনি কি আপনার পুত্রবধূর আত্মীয় ছিলেন?</string>
+    <string name="HD125_1">হ্যাঁ</string>
+    <string name="HD125_2">না</string>
+
+    <!-- end of section 6b (new) -->
+
+    <!--start of section 8a-->
+
+    <string name="Section_8a">৮ম বিভাগ কঃ বাসস্থান এবং জমির মালিকানা </string>
+
+    <string name="HO101">HO101: আপনার কি কোন জমি আছে?</string>
+    <string name="HO101_1">হ্যাঁ</string>
+    <string name="HO101_2">না</string>
+
+    <string name="HO102">HO102: প্লট নং</string>
+
+    <string name="HO103">HO103: পরিমাণ ইউনিট নির্বাচন করুন</string>
+    <string name="HO103_1">ডেসিমাল</string>
+    <string name="HO103_2">বিঘা</string>
+    <string name="HO103_3">কাঠা</string>
+
+    <string name="HO104">HO104: চাষাবাদ যোগ্য জমির পরিমাণ</string>
+
+    <string name="HO105">HO105: চাষাবাদ যোগ্য জমির পরিমাণ (ইউনিট) </string>
+    <string name="HO105_1">ডেসিমাল</string>
+    <string name="HO105_2">বিঘা</string>
+    <string name="HO105_3">কাঠা</string>
+
+    <string name="HO106">HO106: চাষাবাদ অযোগ্য জমির পরিমাণ</string>
+
+    <string name="HO107">HO107: চাষাবাদ অযোগ্য জমির পরিমাণ (ইউনিট) </string>
+    <string name="HO107_1">ডেসিমাল</string>
+    <string name="HO107_2">বিঘা</string>
+    <string name="HO107_3">কাঠা</string>
+
+    <string name="HO108">HO108: বসতবাড়ির জমির পরিমাণ</string>
+
+    <string name="HO109">HO109: বসতবাড়ির জমির পরিমাণ (ইউনিট) </string>
+    <string name="HO109_1">ডেসিমাল</string>
+    <string name="HO109_2">বিঘা</string>
+    <string name="HO109_3">কাঠা</string>
+
+    <string name="HO110">HO110: বসতবাড়ির এই জমিটি কি আপনার মালিকানাধীন?</string>
+    <string name="HO110_1">মালিক</string>
+    <string name="HO110_2">মালিক নয়</string>
+    <string name="HO110_3">ভাড়া</string>
+    <string name="HO110_4">সরকারী জমি</string>
+    <string name="HO110_5">অন্যান্য</string>
+
+    <string name="HO111">HO111: আপনি কত টাকা ভাড়া দেন?</string>
+
+    <string name="HO112">HO112: আপনি এই জমিটি কিভাবে পেয়েছেন?</string>
+    <string name="HO112_1">নিলাম</string>
+    <string name="HO112_2">বরাদ্দকৃত</string>
+    <string name="HO112_3">আগে আসলে আগে পাবেন ভিত্তিতে</string>
+    <string name="HO112_4">সর্বসম্মতিক্রমে</string>
+
+    <string name="HO112_5">অন্যান্য</string>
+
+    <string name="amount">amount</string>
+
+    <string name="unit">unit</string>
+
+    <!--end of section 8a-->
+
+
+
+
+    <!-- start of section 8b -->
+
+    <string name="Section_08b">৮ম বিভাগ খঃ শস্য উৎপাদন</string>
+
+    <string name="HO200">আপনার কি কোন কৃষিজ ফলন আছে?</string>
+    <string name="HO200_1">হ্যাঁ</string>
+    <string name="HO200_2">না</string>
+
+    <string name="HO201">জমির নং</string>
+
+    <string name="HO202">পরিমাণ ইউনিট নির্বাচন করুন</string>
+    <string name="HO202_1">ডেসিমাল</string>
+    <string name="HO202_2">বিঘা</string>
+    <string name="HO202_3">কাঠা</string>
+
+    <string name="HO203">কোন ধরণের চুক্তিতে আছেন?</string>
+    <string name="HO203_1">নিজস্ব</string>
+    <string name="HO203_2">মৌসুমি</string>
+    <string name="HO203_3">একাধিক মালিকানা</string>
+    <string name="HO203_4">স্বল্পমেয়াদী ইজারা</string>
+    <string name="HO203_5">দীর্ঘমেয়াদী ইজারা</string>
+    <string name="HO203_6">বন্ধকী</string>
+    <string name="HO203_7"> সরকারি জমি </string>
+    <string name="HO203_8"> অন্যান্য </string>
+
+    <string name="HO204">সরকারি জমিটি কিভাবে পেয়েছেন?</string>
+    <string name="HO204_1">নিলাম</string>
+    <string name="HO204_2">বরাদ্দ কৃত</string>
+    <string name="HO204_3">আগে আসলে আগে পাবেন ভিত্তিতে </string>
+    <string name="HO204_4">সর্বসম্মতিক্রমে</string>
+    <string name="HO204_5"> অন্যান্য </string>
+
+    <string name="HO205">জলাবদ্ধতার সময়কাল</string>
+    <string name="HO205_1">১-৩ মাস</string>
+    <string name="HO205_2">৪-৬ মাস</string>
+    <string name="HO205_3">৭-১২ মাস</string>
+    <string name="HO205_4"> জলাবদ্ধ থাকে না</string>
+
+    <string name="HO206">চক্র</string>
+
+    <string name="HO207">ফসল</string>
+    <string name="HO207_code1_1">পাট</string>
+    <string name="HO207_code1_2">ভুট্টা</string>
+    <string name="HO207_code1_3">মরিচ</string>
+    <string name="HO207_code1_4">ধান</string>
+    <string name="HO207_code1_5">পেঁয়াজ</string>
+    <string name="HO207_code1_6">বাদাম</string>
+    <string name="HO207_code1_7">গম</string>
+    <string name="HO207_code1_8">অন্যান্য</string>
+
+    <string name="HO208">আবাদি জমির পরিমাণ</string>
+    <string name="HO208_1">ডেসিমাল</string>
+    <string name="HO208_2">বিঘা</string>
+    <string name="HO208_3"> কাঠা</string>
+
+    <string name="HO209">প্রতি চক্রে ফসলের পরিমাণ</string>
+
+    <string name="HO210">পপরিমাণ ইউনিট</string>
+    <string name="HO210_1">কেজি</string>
+    <string name="HO210_2">মন</string>
+    <string name="HO210_3">টন</string>
+
+    <string name="HO211">প্রতি ইউনিটের দাম</string>
+
+    <string name="HO212">বিগত ১২ মাসে আপনার বসতবাড়ির তথ্যঃ </string>
+    <string name="HO212_1">কেজি</string>
+    <string name="HO212_2">মন</string>
+    <string name="HO212_3">টন</string>
+
+
+    <string name="HO213">বিগত ১২ মাসে আপনার বসতবাড়ির তথ্যঃ বিক্রি</string>
+    <string name="HO213_1">কেজি</string>
+    <string name="HO213_2">মন</string>
+    <string name="HO213_3">টন</string>
+
+    <string name="HO214">বিগত ১২ মাসে আপনার বসতবাড়ির তথ্যঃ মজুদ</string>
+    <string name="HO214_1">কেজি</string>
+    <string name="HO214_2">মন</string>
+    <string name="HO214_3">টন</string>
+
+    <string name="HO215">বিগত ১২ মাসে আপনার বসতবাড়ির তথ্যঃ ক্ষতি</string>
+    <string name="HO215_1">কেজি</string>
+    <string name="HO215_2">মন</string>
+    <string name="HO215_3">টন</string>
+
+    <!-- end of section 8b -->
+
+
+    <!-- start of 8c -->
+
+    <string name="Section_08c">৮ম বিভাগ গঃ সার, বীজ এবং শ্রমিকের তথ্য</string>
+
+    <string name="HO201c">জমির নং (৮ম বিভাগ খ এ যা ছিল)</string>
+
+    <string name="HO208c">আবাদি জমির পরিমাণ</string>
+    <string name="HO208_1c">ডেসিমাল</string>
+    <string name="HO208_2c">বিঘা</string>
+    <string name="H0208_3c">কাঠা</string>
+
+    <string name="HO222">পারিবারিক শ্রমিকের সংখ্যা</string>
+
+    <string name="HO223">পারিবারিক শ্রমিকের গড় শ্রম ঘন্টা</string>
+
+    <string name="HO224">কোন শ্রমিক ভাড়া করেছিলেন?</string>
+    <string name="HO224_1">হ্যাঁ</string>
+    <string name="HO224_2">না</string>
+
+    <string name="HO225">হ্যাঁ হলে কতজন?</string>
+
+    <string name="HO226">কতদিনের জন্যে ভাড়া করেছিলেন?</string>
+
+    <string name="HO227">একজন শ্রমিকের দিনপ্রতি মজুরি</string>
+
+    <string name="HO228">শ্রমিকের খাবার</string>
+    <string name="HO228_1">নাস্তা</string>
+    <string name="HO228_2">দুপুরের খাবার</string>
+    <string name="HO228_3">রাতের খাবার</string>
+
+    <string name="HO229">কোন যন্ত্র ব্যাবহার করেছিলেন?</string>
+    <string name="HO229_1"> হ্যাঁ</string>
+    <string name="HO229_2">না</string>
+
+    <string name="HO230">হ্যাঁ হলে কতদিনের জন্যে</string>
+
+    <string name="HO231">হ্যাঁ হলে, দিন প্রতি যন্ত্রের ভাড়া</string>
+
+    <string name="HO232">আপনি নিজে কীটনাশক প্রদান করেন?</string>
+    <string name="HO232_1">হ্যাঁ (হ্যাঁ হলে)</string>
+    <string name="HO232_2">না</string>
+
+    <string name="HO233">কীটনাশক প্রদানের সময় মুখোশ ব্যাবহার করেন?</string>
+    <string name="HO233_1">হ্যাঁ</string>
+    <string name="HO233_2">না</string>
+
+    <!--end of 8c -->
+
+    <!-- start of section 9-->
+
+    <string name="Section_9">৯ম বিভাগঃ সরকারি ও বেসরকারি সহায়তা</string>
+
+    <string name="HS100">আপনি কি কোন ধরণের সরকারি বা বেসরকারি সহায়তা গ্রহন করেন?</string>
+    <string name="HS100_1">হ্যাঁ</string>
+    <string name="Hs100_2">না</string>
+
+    <string name="HS101">সহায়তার উৎস</string>
+    <string name="HS101_code1_1">ভালনারেবল ডেভেলপমেন্ট গ্রুপ (ভিজিডি)</string>
+    <string name="HS101_code1_2">রুরাল মেইন্ট্যানেন্স প্রোগ্রাম (আরএমপি)</string>
+    <string name="HS101_code1_3">ইন্টিগ্রেটেড ফুড সিকিউরিটি (আইএফসি)</string>
+    <string name="HS101_code1_4">টেস্ট রিলিফ (টিআর))</string>
+    <string name="HS101_code1_5">প্রাইমারী এডুকেশন স্টাইপেনড</string>
+    <string name="HS101_code1_6">ফিমেইল সেকেন্ডারি স্কুল স্টাইপেনড</string>
+    <string name="HS101_code1_7">অন্যান্য শিক্ষা বৃত্তি</string>
+    <string name="HS101_code1_8">বিধবা ভাতা</string>
+    <string name="HS101_code1_9">ব্র্যাকের টিইউপি</string>
+    <string name="HS101_code1_10">রেড ক্রিসেন্ট</string>
+    <string name="HS101_code1_11">প্রতিবন্ধী ভাতা</string>
+    <string name="HS101_code1_12">ভালনারেবল গ্রুপ ফিডিং (ভিজিএফ)</string>
+    <string name="HS101_code1_13">কাজের বিনিময়ে টাকা (সিএফডব্লিউ)</string>
+    <string name="HS101_code1_14">ওপেন মার্কেট সেলস ফুড প্রোগ্রাম (ওএমএস)</string>
+    <string name="HS101_code1_15">স্কুল ফিডিং (এসএফপি))</string>
+    <string name="HS101_code1_16">বয়স্ক ভাতা</string>
+    <string name="HS101_code1_17">মুক্তিযোদ্ধা ভাতা</string>
+    <string name="HS101_code1_18">চর লাইভলিহুড প্রোগ্রাম (সিএলপি)</string>
+    <string name="HS101_code1_19">মাতৃত্বকালীন ভাতা</string>
+    <string name="HS101_code1_20">অনুদান/যাকাত</string>
+    <string name="HS101_code1_21">অন্যান্য</string>
+
+    <string name="HS102">নগদ (টাকা)</string>
+
+    <string name="HS103">ধরণ</string>
+    <string name="HS103_1">খাদ্য</string>
+    <string name="HS103_2">গবাদি পশু পাখি</string>
+    <string name="HS103_3">মুদী পণ্যদ্রব্য</string>
+    <string name="HS103_4">জামাকাপড়</string>
+    <string name="HS103_5">অন্যান্য</string>
+
+    <string name="HS104">HS104: প্রতি ইউনিটের দাম</string>
+
+    <string name="HS105">HS105: ইউনিটের সংখ্যা</string>
+
+    <string name="HS106">HS106: ঘটনার হার</string>
+    <string name="HS106_1">সাপ্তাহিক</string>
+    <string name="HS106_2">মাসিক</string>
+    <string name="HS106_3">ত্রৈমাসিক</string>
+    <string name="HS106_4">বাৎসরিক</string>
+    <string name="HS106_5">অন্যান্য</string>
+
+    <!-- end of section 9-->
+
+    <!-- start of section 10 -->
+    <string name="Section_10"> ১০ম বিভাগঃ ঋণ, সঞ্চয় এবং ধারকার্য</string>
+
+    <string name="HS201">আপনার কোন লোন আছে?</string>
+    <string name="HS201_1">হ্যাঁ</string>
+    <string name="HS201_2"> না</string>
+
+    <string name="HS202">লোনের উৎস</string>
+    <string name="HS202_1">জিইউকে/ অন্যান্য এনজিও</string>
+    <string name="HS202_2">বন্ধু, আত্মীয়স্বজন</string>
+    <string name="HS202_3">ক্ষুদ্র ঋণ সংস্থা</string>
+    <string name="HS202_4">মহাজন</string>
+    <string name="HS202_5">অন্যান্য</string>
+
+    <string name="HS204">পরিশোধ যোগ্য লোন (টাকায়)</string>
+
+    <string name="HS205">কিস্তি পরিমাণ</string>
+
+    <string name="HS206">কিস্তি হার</string>
+
+    <string name="HS207">কিস্তি হারের সংখ্যা</string>
+
+    <string name="HS208">আপনার কোন সঞ্চয় রয়েছে?</string>
+    <string name="HS208_1"> হ্যাঁ</string>
+    <string name="HS208_2"> না</string>
+
+    <string name="HS209">কোথায় সঞ্চয় করা আছে?</string>
+    <string name="HS209_1">ব্যাংক</string>
+    <string name="HS209_2">পোষ্ট অফিস</string>
+    <string name="HS209_3">গ্রামীণ প্রতিষ্ঠান/ সমবায়</string>
+    <string name="HS209_4">বাড়িতে (নগদ)</string>
+    <string name="HS209_5">বাড়িতে (সঞ্চিত শস্য)</string>
+    <string name="HS209_6"> অন্যান্য</string>
+
+    <string name="HS210">মোট পরিমাণ</string>
+
+    <string name="HS211">বিগত বছরে কাউকে টাকা ধার দিয়েছিলেন?</string>
+    <string name="HS211_1">হ্যাঁ</string>
+    <string name="HS211_2">না</string>
+
+    <string name="HS212">পরিমাণ (টাকায়)</string>
+
+    <string name="HS213">ফেরতযোগ্য টাকার পরিমাণ</string>
+
+    <string name="HS203">hs203</string>
+
+    <!-- end of section 10 -->
+
+    <!--start of section 11-->
+
+    <string name="Section_11">১১দশ বিভাগঃ পরিবার প্রধানের আয়</string>
+
+    <string name="HL101a">আপনি কি দিন মজুর হিসেবে কৃষিকাজ করেন?</string>
+    <string name="HL101a_1">হ্যা</string>
+    <string name="HL101a_2">না</string>
+
+    <string name="HL101b">কৃষিকাজ বাদে আপনার অন্য কোন পেশা রয়েছে?</string>
+    <string name="HL101b_1">হ্যা</string>
+    <string name="HL101b_2">না</string>
+
+    <string name="HL102">কাজের ধরণ</string>
+    <string name="HL102_code1_1">পূর্ণকালীন</string>
+    <string name="HL102_code1_2">খন্ডকালীন</string>
+    <string name="HL102_code1_3">মৌসুমি কাজ</string>
+    <string name="HL102_code1_4">স্বনির্ভর</string>
+    <string name="HL102_code1_5">বেকার</string>
+
+    <string name="HL103">পেশা</string>
+    <string name="HL103_code2_1">কৃষি কাজ </string>
+    <string name="HL103_code2_2">গবাদি পশু পালন </string>
+    <string name="HL103_code2_3">কারখানা শ্রমিক</string>
+    <string name="HL103_code2_4">মেকানিক</string>
+    <string name="HL103_code2_5">বেচা কেনা</string>
+    <string name="HL103_code2_6">পরিবহণ (নৌকা, রিকশা ইত্যাদি)</string>
+    <string name="HL103_code2_7">নির্মাণ শ্রমিক</string>
+    <string name="HL103_code2_8">স্বনির্ভর</string>
+    <string name="HL103_code2_9">বিবিধ কাজকর্ম</string>
+    <string name="HL103_code2_10">অন্যান্য</string>
+
+    <string name="HL104">স্থান</string>
+    <string name="HL104_code3_1">এই চর</string>
+    <string name="HL104_code3_2">অন্য চর</string>
+    <string name="HL104_code3_3">মূল ভূখণ্ড</string>
+    <string name="HL104_code3_4">ঢাকা</string>
+    <string name="HL104_code3_5">অন্য বিভাগ</string>
+    <string name="HL104_code3_6">দেশের বাইরে</string>
+
+    <string name="HL107">আপনি কি কোন ধরণের পারিশ্রমিক পান?</string>
+    <string name="HL107_1">হ্যা</string>
+    <string name="HL107_2">না</string>
+
+    <string name="HL108">পারিশ্রমিকের ধরণ</string>
+    <string name="HL108_1">নগদ</string>
+    <string name="HL108_2">অন্যান্য</string>
+
+    <string name="HL109">কি পরিমাণ পারিশ্রমিক পান (দিনপ্রতি হলে পারিশ্রমিকের পরিমাণ)</string>
+
+    <string name="HL110">কি পরিমাণ পারিশ্রমিক পান (মাসিক অথবা চুক্তি অনুযায়ী পারিশ্রমিকের পরিমাণ)</string>
+
+    <string name="HL111">কাজ পেতে কি অন্য কোথাও গিয়ে থেকেছিলেন?</string>
+    <string name="HL111_1">হ্যা</string>
+    <string name="HL111_2">না</string>
+
+    <string name="HL112">অন্য কোথাও গিয়ে থাকলে সেখানে কতদিন ছিলেন?</string>
+
+    <string name="HL113">কোন ধরণের প্রাতিষ্ঠানিক প্রশিক্ষণ গ্রহন করেছেন?</string>
+    <string name="HL113_1">হ্যা</string>
+    <string name="HL113_2">না</string>
+
+    <string name="HL114">প্রশিক্ষণের ধরণ</string>
+    <string name="HL114_code4_1">প্রশিক্ষণ সেন্টার থেকে প্রশিক্ষণ প্রাপ্ত</string>
+    <string name="HL114_code4_2">রিকগনিশন ফর প্রায়র লার্নিং (আরপিএল)</string>
+    <string name="HL114_code4_3">অন্যান্য</string>
+
+    <string name="HL115">প্রশিক্ষণের সময় কাল</string>
+
+    <string name="HL116">এই প্রশিক্ষনটি কি আপনার প্রয়োজন হয় বা প্রয়োগ করেন?</string>
+    <string name="HL116_1">হ্যা</string>
+    <string name="HL116_2">না</string>
+
+    <string name="HL101_up">HL101_up</string>
+    <string name="HL101_down">HL101_down</string>
+
+    <!-- end of section 11-->
+
+    <!-- start of section 12 -->
+
+    <string name="Section_12">১২দশ বিভাগঃ অস্থাবর সম্পদ</string>
+
+    <string name="Household_assets">বসতবাড়িতে সম্পদ</string>
+
+    <string name="HA101">রেডিও</string>
+    <string name="HA101_1">হ্যা</string>
+    <string name="HA101_2">না</string>
+
+    <string name="HA102">রিকশা/ভ্যান</string>
+    <string name="HA102_1">হ্যা</string>
+    <string name="HA102_2">না</string>
+
+    <string name="HA103">মটর সাইকেল</string>
+    <string name="HA103_1">হ্যা</string>
+    <string name="HA103_2">না</string>
+
+    <string name="HA104">টেলিভিশন</string>
+    <string name="HA104_1">হ্যা</string>
+    <string name="HA104_2">না</string>
+
+    <string name="HA105">দেয়ালঘড়ি</string>
+    <string name="HA105_1">হ্যা</string>
+    <string name="HA105_2">না</string>
+
+    <string name="HA106">মোবাইল</string>
+    <string name="HA106_1">হ্যা</string>
+    <string name="HA106_2">না</string>
+
+    <string name="HA107">সোলার প্যানেল</string>
+    <string name="HA107_1">হ্যা</string>
+    <string name="HA107_2">না</string>
+
+    <string name="HA108">ইন্টারনেট সংযোগ</string>
+    <string name="HA108_1">হ্যা</string>
+    <string name="HA108_2">না</string>
+
+    <string name="HA109">খাট</string>
+    <string name="HA109_1">হ্যা</string>
+    <string name="HA109_2">না</string>
+
+    <string name="HA110">চেয়ার</string>
+    <string name="HA110_1">হ্যা</string>
+    <string name="HA110_2">না</string>
+
+    <string name="Productive_assets">উৎপাদন কাজে ব্যাবহৃত সম্পদ</string>
+
+    <string name="HA111">ট্রাক্টর</string>
+    <string name="HA111_1">হ্যা</string>
+    <string name="HA111_2">না</string>
+
+    <string name="HA112">পাওয়ার টীলার</string>
+    <string name="HA112_1">হ্যা</string>
+    <string name="HA112_2">না</string>
+
+    <string name="HA113">পাওয়ার পাম্প</string>
+    <string name="HA113_1">হ্যা</string>
+    <string name="HA113_2">না</string>
+
+    <string name="HA114">অগভীর নলকূপ</string>
+    <string name="HA114_1">হ্যা</string>
+    <string name="HA114_2">না</string>
+
+    <string name="HA115">লাঙ্গল জোয়াল</string>
+    <string name="HA115_1">হ্যা</string>
+    <string name="HA115_2">না</string>
+
+    <string name="HA116">স্প্রে</string>
+    <string name="HA116_1">হ্যা</string>
+    <string name="HA116_2">না</string>
+
+    <string name="HA117">ঝারাই মেশিন</string>
+    <string name="HA117_1">হ্যা</string>
+    <string name="HA117_2">না</string>
+
+    <string name="HA118">মারাই মেশিন</string>
+    <string name="HA118_1">হ্যা</string>
+    <string name="HA118_2">না</string>
+
+    <string name="HA119">নৌকা বা ট্রলার</string>
+    <string name="HA119_1">হ্যা</string>
+    <string name="HA119_2">না</string>
+
+    <string name="HA120">মাছ ধরা জাল</string>
+    <string name="HA120_1">হ্যা</string>
+    <string name="HA120_2">না</string>
+
+    <string name="HA121">কাস্তে/দাও/লাঙ্গল/কোদাল</string>
+    <string name="HA121_1">হ্যা</string>
+    <string name="HA121_2">না</string>
+
+    <string name="HA122">গোলা</string>
+    <string name="HA122_1">হ্যা</string>
+    <string name="HA122_2">না</string>
+
+    <string name="HA123">ঢেকি</string>
+    <string name="HA123_1">হ্যা</string>
+    <string name="HA123_2">না</string>
+
+    <string name="HA124">চা দোকান</string>
+    <string name="HA124_1">হ্যা</string>
+    <string name="HA124_2">না</string>
+
+    <string name="HA125">দোকান</string>
+    <string name="HA125_1">হ্যা</string>
+    <string name="HA125_2">না</string>
+
+    <string name="HA126">অন্যান্য ১ (উল্লেখ করুন)</string>
+
+    <string name="HA127">অন্যান্য ২ (উল্লেখ করুন)</string>
+
+    <string name="HA128">অন্যান্য ৩ (উল্লেখ করুন)</string>
+
+    <string name="Price_per_unit">প্রতি ইউনিটের বর্তমান বাজার মূল্য (টাকায়)</string>
+
+    <string name="Amount">পরিমাণ</string>
+
+    <!-- end of section 12-->
+
+    <!-- start of section 13 -->
+
+
+    <string name="Section_13">১৩দশ বিভাগঃ গবাদি পশু পাখি</string>
+
+    <string name="Livestock">আপনার কি কোন গবাদি পশুপাখি রয়েছে? </string>
+
+    <string name="HA501">গরু</string>
+    <string name="HA501_1">হ্যা</string>
+    <string name="HA501_2">না</string>
+
+    <string name="HA502">মহিষ</string>
+    <string name="HA502_1">হ্যা</string>
+    <string name="HA502_2">না</string>
+
+    <string name="HA503">ছাগল</string>
+    <string name="HA503_1">হ্যা</string>
+    <string name="HA503_2">না</string>
+
+    <string name="HA504">ভেড়া</string>
+    <string name="HA504_1">হ্যা</string>
+    <string name="HA504_2">না</string>
+
+    <string name="HA505">ঘোড়া</string>
+    <string name="HA505_1">হ্যা</string>
+    <string name="HA505_2">না</string>
+
+    <string name="HA506">হাঁস</string>
+    <string name="HA506_1">হ্যা</string>
+    <string name="HA506_2">না</string>
+
+    <string name="HA507">মুরগী</string>
+    <string name="HA507_1">হ্যা</string>
+    <string name="HA507_2">না</string>
+
+    <string name="HA508">শুকর</string>
+    <string name="HA508_1">হ্যা</string>
+    <string name="HA508_2">না</string>
+
+    <string name="HA509">আপনার কি কোন অন্যান্য গবাদি পশুপাখি রয়েছে?</string>
+
+    <string name="Amount_of_livestock">থাকলে কয়টি?</string>
+
+    <!-- end of section 13-->
+
+    <!-- start of section 15-->
+
+    <string name="Section_15">মূল ভূখণ্ডে নিয়মিত যোগাযোগকারী</string>
+
+    <string name="HR201"> মূল ভূখণ্ডে আপনার পরিবারের কোন সদস্য, আত্মীয় বা বন্ধু আছেন যার সাথে আপনার নিয়মিত যোগাযোগ হয়</string>
+    <string name="HR201_1"> হ্যাঁ</string>
+    <string name="HR201_2"> না</string>
+
+    <string name="HR202">লঙ্গ</string>
+    <string name="HR202_1"> পুরুষ</string>
+    <string name="HR202_2"> মহিলা</string>
+
+    <string name="HR203"> বয়স</string>
+
+    <string name="HR204"> পরিবার প্রধানের সাথে সম্পর্ক</string>
+    <string name="HR204_1"> পরিবার</string>
+    <string name="HR204_2"> আত্মীয়</string>
+    <string name="HR204_3"> বন্ধু</string>
+
+    <string name="HR205"> স্থান</string>
+    <string name="HR205_code1_1"> গাইবান্ধা</string>
+    <string name="HR205_code1_2"> রংপুর</string>
+    <string name="HR205_code1_3"> কুড়িগ্রাম</string>
+    <string name="HR205_code1_4"> লালমনিরহাট</string>
+    <string name="HR205_code1_5"> বগুড়া</string>
+    <string name="HR205_code1_6"> ঢাকা</string>
+    <string name="HR205_code1_7"> চট্টগ্রাম</string>
+    <string name="HR205_code1_8"> অন্যান্য (উল্লেখ করুন)</string>
+
+    <string name="HR206"> মূল ভূখণ্ডে বসবাসের কারণ</string>
+    <string name="HR206_code2_1"> বৈবাহিক</string>
+    <string name="HR206_code2_2"> পরিবারের বৃদ্ধি</string>
+    <string name="HR206_code2_3"> বাবা মায়ের সাথে থাকার জন্যে</string>
+    <string name="HR206_code2_4"> কাজের জন্যে</string>
+    <string name="HR206_code2_5"> বিদ্যালয়</string>
+    <string name="HR206_code2_6"> জন্মসূত্রে</string>
+    <string name="HR206_code2_7"> অন্যান্য (উল্লেখ করুন)</string>
+
+    <string name="HR207"> ইনার সাথে আপনার কোন ধরণের আর্থিক লেনদেনের সম্পর্ক রয়েছে?</string>
+    <string name="HR207_1"> হ্যাঁ</string>
+    <string name="HR207_2"> না</string>
+
+    <string name="HR208"> কোন দুর্ঘটনার কবলে পরলে আপনি ইনার বাড়িতে অস্থায়ী ভাবে থাকতে পারবেন?</string>
+    <string name="HR208_1"> হ্যাঁ</string>
+    <string name="HR208_2"> না</string>
+
+    <string name="HR201_member1"> member 1</string>
+
+
+
+    <!-- end of section 15 -->
+
+    <!-- start of section 17a -->
+
+    <string name="Section_17a">১৭দশ বিভাগ কঃ পরিবার প্রধানের ধূমপানের তথ্য</string>
+
+    <string name="TH101">আপনি ধূমপান করেন?</string>
+    <string name="TH101_1">হ্যা</string>
+    <string name="TH101_2">এখন আর না</string>
+    <string name="TH101_3">কখনোই না</string>
+
+    <string name="TH103">কত বছর আগে ধূমপান শুরু করেছেন?</string>
+
+    <string name="TH104">কি হারে ধূমপান করেন?</string>
+    <string name="TH104_1">প্রতিদিন</string>
+    <string name="TH104_2">প্রতিদিনের কম</string>
+    <string name="TH104_3">জানি না </string>
+
+    <string name="TH105">এক বছর আগে কি হারে ধূমপান করতেন?</string>
+    <string name="TH105_1">প্রতিদিন</string>
+    <string name="TH105_2">প্রতিদিনের কম</string>
+    <string name="TH105_3">জানি না </string>
+
+    <string name="TH106">ঘুম থেকে উঠার পর প্রথম কখন ধূমপান করেন? </string>
+    <string name="TH106_1">৫ মিনিটের ভেতর</string>
+    <string name="TH106_2">৬-৩০ মিনিট</string>
+    <string name="TH106_3">৩১-৬০ মিনিট</string>
+    <string name="TH106_4">৬০ মিনিটেরও পরে</string>
+
+    <string name="TH102a">কতদিন হয় ধূমপান ছেড়েছেন?</string>
+
+    <string name="TH102b">কতদিন হয় ধূমপান ছেড়েছেন?</string>
+    <string name="TH102b_1">বছর</string>
+    <string name="TH102b_2">মাস</string>
+    <string name="TH102b_3">সপ্তাহ</string>
+    <string name="TH102b_4">দিন</string>
+
+    <string name="TH107">বিগত এক বছরে কোন ডাক্তার বা স্বাস্থ্যকর্মীর শরণাপন্ন হয়েছিলেন?</string>
+    <string name="TH107_1">হ্যা</string>
+    <string name="TH107_2">না</string>
+
+    <string name="TH108">বিগত এক বছরে কতবার ডাক্তার বা স্বাস্থ্যকর্মীর শরণাপন্ন হয়েছেন?</string>
+
+    <string name="TH109">তারা কি আপনার ধূমপান সম্পর্কে জানতে চেয়েছিলেন?</string>
+    <string name="TH109_1">হ্যা</string>
+    <string name="TH109_2">না</string>
+
+    <string name="TH110">তারা কি আপনাকে ধূমপান ছাড়তে উপদেশ দিয়েছিলেন?</string>
+    <string name="TH110_1">হ্যা</string>
+    <string name="TH110_2">না</string>
+
+    <string name="TH111">আপনি ধূমপানের উপকরন কোথা থেকে কিনেন?</string>
+    <string name="TH111_1">চর থেকে</string>
+    <string name="TH111_2">চরের বাইরে থেকে</string>
+
+    <string name="TH121">বিগত ১২ মাসে ধূমপান ছাড়ার চেষ্টা করেছেন?</string>
+    <string name="TH121_1">হ্যা</string>
+    <string name="TH121_2">না</string>
+
+    <string name="TH122">শেষ যখন ধূমপান ছাড়ার চেষ্টা করেছিলেন কতদিন ধূমপান না করে ছিলেন?</string>
+
+    <string name="TH123">শেষ যখন ধূমপান ছাড়ার চেষ্টা করেছিলেন কতদিন ধূমপান না করে ছিলেন?</string>
+    <string name="TH123_1">বছর</string>
+    <string name="TH123_2">মাস</string>
+    <string name="TH123_3">সপ্তাহ</string>
+    <string name="TH123_4">দিন</string>
+
+    <string name="TH124">আপনি কোন তামাক বিরোধী হস্তক্ষেপ সম্মুখীন হয়েছে?</string>
+    <string name="TH124_1">হ্যা</string>
+    <string name="TH124_2">না</string>
+
+    <string name="TH131">ধূমপানের ক্ষতি নিয়ে নিচের জায়গা গুলোতে কোন নোটিশ দেখেছেন?</string>
+    <string name="TH131_1">সিনেমা</string>
+    <string name="TH131_2">টেলিভিশন</string>
+    <string name="TH131_3">রেডিও</string>
+    <string name="TH131_4">বিলবোর্ড</string>
+    <string name="TH131_5">পোষ্টার</string>
+    <string name="TH131_6">বিড়ী/সিগারেটের দোকান</string>
+    <string name="TH131_7">গণ পরিবহণ</string>
+    <string name="TH131_8">অন্যান্য</string>
+
+    <string name="TH132">বিড়ি/সিগারেটের প্যাকেটে কোন স্বাস্থ্যঝুঁকির বার্তা লক্ষ্য করেছেন?</string>
+    <string name="TH132_1">হ্যা</string>
+    <string name="TH132_2">না</string>
+
+    <string name="TH133">সেসকল বার্তা ধূমপান ছাড়ার চিন্তা করতে শুরু করিয়েছে?</string>
+    <string name="TH133_1">হ্যা</string>
+    <string name="TH133_2">না</string>
+
+    <string name="TH134">নিচের কোন স্থানে বিড়ি/সিগারেটের কোন ধরণের বিজ্ঞাপন দেখেছেন?</string>
+    <string name="TH134_1">সিনেমা</string>
+    <string name="TH134_2">টেলিভিশন</string>
+    <string name="TH134_3">রেডিও</string>
+    <string name="TH134_4">বিলবোর্ড</string>
+    <string name="TH134_5">পোষ্টার</string>
+    <string name="TH134_6">বিড়ী/সিগারেটের দোকান</string>
+    <string name="TH134_7">গণ পরিবহণ</string>
+    <string name="TH134_8">অন্যান্য</string>
+
+    <string name="TH135">বিরি/সিগারেটের কোন ধরণের প্রচারণা দেখেছেন?</string>
+    <string name="TH135_1">ফ্রি স্যাম্পল</string>
+    <string name="TH135_2">পাইকারি দরে বিক্রি</string>
+    <string name="TH135_3">কুপন</string>
+    <string name="TH135_4">মূল্যছাড়</string>
+    <string name="TH135_5">বিড়ি/সিগারেটের লোগো সহ কাপড় বা অন্যান্য পণ্য</string>
+
+    <string name="TH141">আপনি কয়টি সিগারেট পান করেন? (প্রতিদিন, নিয়মিত ধূমপায়ীর জন্য)</string>
+
+    <string name="TH142">আপনি কয়টি সিগারেট পান করেন? (প্রতিদিন, নিয়মিত ধূমপায়ীর জন্য)</string>
+    <string name="TH142_1">স্টিক</string>
+    <string name="TH142_2">প্যাকেট</string>
+
+    <string name="TH143">আপনি কয়টি সিগারেট পান করেন? (সাপ্তাহিক, অনিয়মিত ধূমপায়ীর জন্য)</string>
+
+    <string name="TH144">আপনি কয়টি সিগারেট পান করেন? (সাপ্তাহিক, অনিয়মিত ধূমপায়ীর জন্য)</string>
+    <string name="TH144_1">স্টিক</string>
+    <string name="TH144_2">প্যাকেট</string>
+
+    <string name="TH145">আপনার চাকরি দাতা কি কাজের পূর্বে আপনাকে সিগারেট দেন?</string>
+    <string name="TH145_1">হ্যা</string>
+    <string name="TH145_2">না</string>
+
+    <string name="TH146">আপনার চাকরি দাতা কতটি সিগারেট দেন?</string>
+
+    <string name="TH147">আপনার চাকরি দাতা কতটি সিগারেট দেন?</string>
+    <string name="TH147_1">স্টিক</string>
+    <string name="TH147_2">প্যাকেট</string>
+
+    <string name="TH148">আপনি কাজের সময় প্রতিদিন কতটি সিগারেট পান করেন?</string>
+
+    <string name="TH149">আপনি কাজের সময় প্রতিদিন কতটি সিগারেট পান করেন?</string>
+    <string name="TH149_1">স্টিক</string>
+    <string name="TH149_2">প্যাকেট</string>
+
+    <string name="TH150">আপনি গতকাল নিজের জন্যে কতটি সিগারেট কিনেছেন?</string>
+
+    <string name="TH151">আপনি গতকাল নিজের জন্যে কতটি সিগারেট কিনেছেন?</string>
+    <string name="TH151_1">স্টিক</string>
+    <string name="TH151_2">প্যাকেট</string>
+
+    <string name="TH161">আপনি কয়টি বিড়ি পান করেন? (প্রতিদিন, নিয়মিত ধূমপায়ীর জন্য)</string>
+
+    <string name="TH162">আপনি কয়টি বিড়ি পান করেন? (প্রতিদিন, নিয়মিত ধূমপায়ীর জন্য)</string>
+    <string name="TH162_1">স্টিক</string>
+    <string name="TH162_2">প্যাকেট</string>
+
+    <string name="TH163">আপনি কয়টি বিড়ি পান করেন? (সাপ্তাহিক, অনিয়মিত ধূমপায়ীর জন্য)</string>
+
+    <string name="TH164">আপনি কয়টি বিড়ি পান করেন? (সাপ্তাহিক, অনিয়মিত ধূমপায়ীর জন্য)</string>
+    <string name="TH164_1">স্টিক</string>
+    <string name="TH164_2">প্যাকেট</string>
+
+    <string name="TH165">আপনার চাকরি দাতা কি কাজের পূর্বে আপনাকে বিড়ি দেন?</string>
+    <string name="TH165_1">হ্যা</string>
+    <string name="TH165_2">না</string>
+
+    <string name="TH166">আপনার চাকরি দাতা কতটি বিড়ি দেন?</string>
+
+    <string name="TH167">আপনার চাকরি দাতা কতটি বিড়ি দেন?</string>
+    <string name="TH167_1">স্টিক</string>
+    <string name="TH167_2">প্যাকেট</string>
+
+    <string name="TH168">আপনি কাজের সময় প্রতিদিন কতটি বিড়ি পান করেন?</string>
+
+    <string name="TH169">আপনি কাজের সময় প্রতিদিন কতটি বিড়ি পান করেন?</string>
+    <string name="TH169_1">স্টিক</string>
+    <string name="TH169_2">প্যাকেট</string>
+
+    <string name="TH170">আপনি গতকাল নিজের জন্যে কতটি বিড়ি কিনেছেন?</string>
+
+    <string name="TH171">আপনি গতকাল নিজের জন্যে কতটি বিড়ি কিনেছেন?</string>
+    <string name="TH171_1">স্টিক</string>
+    <string name="TH171_2">প্যাকেট</string>
+
+    <!-- end of section 17a -->
+
+
+    <!-- start of 17b -->
+
+    <string name="Section_17b">১৭দশ বিভাগ খঃ পরিবার প্রধানের অন্যান্য তামাকজাত দ্রব্য সেবন সংক্রান্ত তথ্য</string>
+
+    <string name="TS101">আপনি কি অন্য কোন তামাকজাত দ্রব্য সেবন করেন?</string>
+    <string name="TS101_1">হ্যাঁ </string>
+    <string name="TS101_2"> এখন আর না </string>
+    <string name="TS101_3"> কখনোই না (১৭দশ বিভাগ গ তে যান)  </string>
+
+    <string name="TS102">কতদিন হয় তামাকজাত দ্রব্য সেবন ছেড়েছেন?</string>
+    <string name="TS102_1"> বছর  </string>
+    <string name="TS102_2"> মাস </string>
+    <string name="TS102_3"> সপ্তাহ </string>
+    <string name="TS102_4"> দিন </string>
+
+    <string name="TS103">সেটি কি হারে সেবন করেন </string>
+    <string name="TS103_1">  প্রতিদিন  </string>
+    <string name="TS103_2">  প্রতিদিনের কম  </string>
+    <string name="TS103_3">  জানি না  </string>
+
+    <string name="TS104">এক বছর আগে এই তামাকজাত দ্রব্য সেবনের মাত্রা কত ছিল? </string>
+    <string name="TS104_1">  প্রতিদিন  </string>
+    <string name="TS104_2">  প্রতিদিনের কম  </string>
+    <string name="TS104_3">  জানি না  </string>
+
+    <string name="TS105">কত বছর আগে আপনি এটি সেবন শুরু করেন? </string>
+
+    <string name="TS106">ঘুম থেকে উঠার পর প্রথম কখন তামাকজাত দ্রব্য সেবন করেন?  </string>
+    <string name="TS106_1">  ৫ মিনিটের ভেতর  </string>
+    <string name="TS106_2">   ৬-৩০ মিনিট  </string>
+    <string name="TS106_3">   ৩১-৬০ মিনিট </string>
+    <string name="TS106_4">   ৬০ মিনিটেরও পরে  </string>
+
+    <string name="TS107">বিগত এক বছরে কোন ডাক্তার বা স্বাস্থ্যকর্মীর শরণাপন্ন হয়েছিলেন?  </string>
+    <string name="TS107_1">হ্যাঁ </string>
+    <string name="TS107_2">না </string>
+
+    <string name="TS108">বিগত এক বছরে কতবার ডাক্তার বা স্বাস্থ্যকর্মীর শরণাপন্ন হয়েছেন?  </string>
+
+    <string name="TS109">তাঁরা কি আপনার তামাকজাত দ্রব্য সেবন সম্পর্কে জানতে চেয়েছিলেন?  </string>
+    <string name="TS109_1">হ্যাঁ </string>
+    <string name="TS109_2">না </string>
+
+    <string name="TS110">তাঁরা কি আপনাকে তামাকজাত দ্রব্য সেবন ছাড়তে উপদেশ দিয়েছিলেন?  </string>
+    <string name="TS110_1">হ্যাঁ </string>
+    <string name="TS110_2">না </string>
+
+    <string name="TS111">আপনি তামাকজাত দ্রব্য সেবনের উপকরন কোথা থেকে কিনেন?  </string>
+    <string name="TS111_1">চর থেকে </string>
+    <string name="TS111_2">চরের বাইরে থেকে</string>
+
+    <string name="TS121">বিগত ১২ মাসে তামাকজাত দ্রব্য সেবন ছাড়ার চেষ্টা করেছেন?  </string>
+    <string name="TS121_1">হ্যাঁ </string>
+    <string name="TS121_2">না </string>
+
+    <string name="TS122">শেষ যখন তামাকজাত দ্রব্য সেবন ছাড়ার চেষ্টা করেছিলেন কতদিন তামাকজাত দ্রব্য সেবন না করে ছিলেন?  </string>
+
+    <string name="TS123">শেষ যখন তামাকজাত দ্রব্য সেবন ছাড়ার চেষ্টা করেছিলেন কতদিন তামাকজাত দ্রব্য সেবন না করে ছিলেন?  </string>
+    <string name="TS123_1"> বছর  </string>
+    <string name="TS123_2"> মাস  </string>
+    <string name="TS123_3">  সপ্তাহ  </string>
+    <string name="TS123_4">  দিন  </string>
+
+    <string name="TS124">আপনি কোন তামাক বিরোধী হস্তক্ষেপ সম্মুখীন হয়েছে? </string>
+    <string name="TS124_1">হ্যাঁ </string>
+    <string name="TS124_2">না </string>
+
+    <string name="TS131">তামাকজাত দ্রব্য সেবনের ক্ষতি নিয়ে নিচের জায়গা গুলোতে কোন নোটিশ দেখেছেন?</string>
+    <string name="TS131_1"> সিনেমা </string>
+    <string name="TS131_2"> টেলিভিশন </string>
+    <string name="TS131_3"> রেডিও </string>
+    <string name="TS131_4">  বিলবোর্ড </string>
+    <string name="TS131_5">  পোষ্টার </string>
+    <string name="TS131_6">  জর্দার দোকান </string>
+    <string name="TS131_7">  গণ পরিবহণ </string>
+    <string name="TS131_8">  অন্যান্য </string>
+
+    <string name="TS132">তামাকজাত দ্রব্যের প্যাকেটে কোন স্বাস্থ্যঝুঁকির বার্তা লক্ষ্য করেছেন?</string>
+    <string name="TS132_1">হ্যাঁ </string>
+    <string name="TS132_2">না </string>
+
+    <string name="TS133">সেসকল বার্তা তামাকজাত দ্রব্য সেবন ছাড়ার চিন্তা করতে শুরু করিয়েছে?</string>
+    <string name="TS133_1">হ্যাঁ </string>
+    <string name="TS133_2">না </string>
+
+    <string name="TS134">নিচের কোন স্থানে তামাকজাত দ্রব্যের কোন ধরণের বিজ্ঞাপন দেখেছেন?</string>
+    <string name="TS134_1">সিনেমা </string>
+    <string name="TS134_2">টেলিভিশন </string>
+    <string name="TS134_3">রেডিও </string>
+    <string name="TS134_4">বিলবোর্ড </string>
+    <string name="TS134_5">পোষ্টার </string>
+    <string name="TS134_6">  জর্দার দোকান </string>
+    <string name="TS134_7">  গণ পরিবহণ </string>
+    <string name="TS134_8">  অন্যান্য </string>
+
+    <string name="TS135">তামাকজাত দ্রব্যের কোন ধরণের প্রচারণা দেখেছেন?</string>
+    <string name="TS135_1">ফ্রি স্যাম্পল </string>
+    <string name="TS135_2">পাইকারি দরে বিক্রি </string>
+    <string name="TS135_3">কুপন </string>
+    <string name="TS135_4">মূল্যছাড় </string>
+    <string name="TS135_5">জর্দার লোগো সহ কাপড় বা অন্যান্য পণ্য </string>
+
+    <string name="TS141">দিনে কতবার তামাকজাত দ্রব্য সেবন করেন? দিনপ্রতি হার, নিয়মিত সেবনকারীর জন্য</string>
+
+    <string name="TS142">দিনে কতবার তামাকজাত দ্রব্য সেবন করেন? সাপ্তাহিক হার, অনিয়মিত সেবনকারীর জন্য</string>
+
+    <string name="TS143">আপনার চাকরি দাতা কি কাজের পূর্বে আপনাকে তামাকজাত দ্রব্য দেন?</string>
+    <string name="TS143_1">হ্যাঁ </string>
+    <string name="TS143_2">না </string>
+
+    <string name="TS144">আপনার চাকরি দাতা কি পরিমাণ তামাকজাত দ্রব্য দেন?</string>
+
+    <string name="TS145">আপনার চাকরি দাতা কি পরিমাণ তামাকজাত দ্রব্য দেন?</string>
+    <string name="TS145_1">বার </string>
+    <string name="TS145_2">কৌটা </string>
+
+    <string name="TS146">আপনি কাজের সময় প্রতিদিন কি পরিমাণ তামাকজাত দ্রব্য সেবন করেন?</string>
+
+    <string name="TS147">আপনি গতকাল নিজে কত কৌটা/প্যাকেট তামাকজাত দ্রব্য কিনেছেন?</string>
+
+    <string name="TS148">আপনি গতকাল নিজে কত কৌটা/প্যাকেট তামাকজাত দ্রব্য কিনেছেন?</string>
+    <string name="TS148_1">বার </string>
+    <string name="TS148_2">কৌটা </string>
+
+    <string name="TS149">আপনি এর জন্য কত টাকা খরচ করেছেন?</string>
+
+    <!-- end of 17b -->
+
+    <!-- start of 17c -->
+
+    <string name="Section_17c">১৭দশ বিভাগ গঃ পরোক্ষ ধূমপান এবং সেবন সম্পর্কে জ্ঞ্যান, এর প্রতি মনোভাব ও ধারণা</string>
+
+    <string name="TH201">TH201: আপনার বাড়িতে ধূমপানের নিয়ম কি?</string>
+    <string name="TH201_1">অনুমতি আছে</string>
+    <string name="TH201_2">অনুমতি নেই</string>
+    <string name="TH201_3">কোন নিয়ম নেই</string>
+
+    <string name="TH202">TH202: আপনি বাড়িতে কি হারে ধূমপান করেন?</string>
+    <string name="TH202_1">প্রতিদিন</string>
+    <string name="TH202_2">সাপ্তাহিক</string>
+    <string name="TH202_3">মাসিক</string>
+    <string name="TH202_4">মাসিকের থেকেও কম</string>
+    <string name="TH202_5">কখনোই না</string>
+
+    <string name="TH203">TH203: অন্য কেউ আপনার বাড়িতে কি হারে ধূমপান করেন?</string>
+    <string name="TH203_1">প্রতিদিন</string>
+    <string name="TH203_2">সাপ্তাহিক</string>
+    <string name="TH203_3">মাসিক</string>
+    <string name="TH203_4">মাসিকের থেকেও কম</string>
+    <string name="TH203_5">কখনোই না</string>
+    <string name="TH203_6">জানি না</string>
+
+    <string name="TH204">TH204: আপনি উঠানে কি হারে ধূমপান করেন?</string>
+    <string name="TH204_1">প্রতিদিন</string>
+    <string name="TH204_2">সাপ্তাহিক</string>
+    <string name="TH204_3">মাসিক</string>
+    <string name="TH204_4">মাসিকের থেকেও কম</string>
+    <string name="TH204_5">কখনোই না</string>
+
+    <string name="TH205">TH205: আপনার বাড়ির অন্য কেউ উঠানে কি হারে ধূমপান করে?</string>
+    <string name="TH205_1">প্রতিদিন</string>
+    <string name="TH205_2">সাপ্তাহিক</string>
+    <string name="TH205_3">মাসিক</string>
+    <string name="TH205_4">মাসিকের থেকেও কম</string>
+    <string name="TH205_5">কখনোই না</string>
+    <string name="TH205_6">জানি না</string>
+
+    <string name="TH209">TH209: আপনি যা জানেন, তা থেকে কি আপনি মনে করেন ধূমপানের কারনে আশেপাশের অধূমপায়ীদের স্বাস্থ্যঝুঁকি তৈরি হয়?</string>
+    <string name="TH209_1">হ্যাঁ</string>
+    <string name="TH209_2">না</string>
+
+    <string name="TH301">TH301: আপনি যা জানেন, তা থেকে আপনি কি মনে করেন ধূমপানের কারনে গুরুতর অসুস্থতা হয়</string>
+    <string name="TH301_1">হ্যাঁ</string>
+    <string name="TH301_2">না</string>
+
+    <string name="TH302">TH302: আপনি যা জানেন, তা থেকে আপনি কি মনে করেন অন্যান্য তামাকজাত দ্রব্য সেবনে গুরুতর অসুস্থতা হয়</string>
+    <string name="TH302_1">হ্যাঁ</string>
+    <string name="TH302_2">না</string>
+
+    <string name="TH305">TH305: আপনি কি মনে করেন ধূমপান ক্ষতিকারক</string>
+    <string name="TH305_1">হ্যাঁ</string>
+    <string name="TH305_2">না</string>
+
+    <string name="TH306">TH306: কোনটি বেশি ক্ষতিকারক?</string>
+    <string name="TH306_1">সিগারেট</string>
+    <string name="TH306_2">বিড়ি</string>
+
+    <string name="TH307">TH307: আপনি কি মনে করেন তামাকজাত দ্রব্য সেবন ক্ষতিকারক?</string>
+    <string name="TH307_1">হ্যাঁ</string>
+    <string name="TH307_2">না</string>
+
+    <string name="TH308">TH308: কোনটি বেশি ক্ষতিকারক?</string>
+    <string name="TH308_1">জর্দা</string>
+    <string name="TH308_2">গুল</string>
+
+    <string name="TH309">TH309: নিচের কোনটি বেশি ক্ষতিকারক বলে মনে করেন?</string>
+    <string name="TH309_1">বিড়ি, সিগারেট</string>
+    <string name="TH309_2">গুল, জর্দা</string>
+
+    <string name="TH310">TH310: আপনি কি মনে করেন ধূমপান আসক্তিপূর্ণ</string>
+    <string name="TH310_1">হ্যাঁ</string>
+    <string name="TH310_2">না</string>
+
+    <string name="TH311">TH311: আপনি কি মনে করেন অন্যান্য তামাকজাত দ্রব্য আসক্তি পূর্ণ</string>
+    <string name="TH311_1">হ্যাঁ</string>
+    <string name="TH311_2">না</string>
+
+    <string name="TH312">TH312: আপনি যতটুকু জানেন, আপনার ধর্ম কি ধূমপান নিষেধ করে?</string>
+    <string name="TH312_1">হ্যাঁ</string>
+    <string name="TH312_2">না</string>
+    <string name="TH312_3">জানি না</string>
+    <string name="TH312_4">উত্তর প্রদানে অস্বীকৃতি</string>
+
+    <string name="TH313">TH313: আপনি যতটুকু জানেন, আপনার ধর্ম কি অন্যান্য তামাকজাত দ্রব্য সেবন নিষেধ করে?</string>
+    <string name="TH313_1">হ্যাঁ</string>
+    <string name="TH313_2">না</string>
+    <string name="TH313_3">জানি না</string>
+    <string name="TH313_4">উত্তর প্রদানে অস্বীকৃতি</string>
+
+    <string name="TH314">TH314: আপনার জানা মতে, ইসলামে ধূমপান সম্পর্কে কি বলা আছে?</string>
+    <string name="TH314_1">হারাম</string>
+    <string name="TH314_2">মাক্রুহ</string>
+    <string name="TH314_3">হালাল</string>
+    <string name="TH314_4">অন্যকিছু</string>
+    <string name="TH314_5">কিছু বলা নেই</string>
+    <string name="TH314_6">জানি না</string>
+    <string name="TH314_7">উত্তর প্রদানে অস্বীকৃতি</string>
+
+    <string name="TH315">TH315: আপনার জানা মতে, ইসলামে অন্যান্য তামাকজাত দ্রব্য সেবনে কি বলা আছে?</string>
+    <string name="TH315_1">হারাম</string>
+    <string name="TH315_2">মাক্রুহ</string>
+    <string name="TH315_3">হালাল</string>
+    <string name="TH315_4">অন্যকিছু</string>
+    <string name="TH315_5">কিছু বলা নেই</string>
+    <string name="TH315_6">জানি না</string>
+    <string name="TH315_7">উত্তর প্রদানে অস্বীকৃতি</string>
+
+    <string name="TH316">TH316: তামাকজাত পণ্যে ট্যাক্স বৃদ্ধি সমর্থন করেন?</string>
+    <string name="TH316_1">পক্ষে</string>
+    <string name="TH316_2">বিপক্ষে</string>
+    <string name="TH316_3">জানি না</string>
+
+    <!-- end of 17c -->
+
+
+    <!-- start of section 20 -->
+
+    <string name="Section_20">২০বিংশ বিভাগঃ স্ত্রীর অন্যান্য তামাকজাত দ্রব্য সেবন সংক্রান্ত তথ্য </string>
+
+    <string name="TS501">আপনি কি অন্য কোন তামাকজাত দ্রব্য সেবন করেন?</string>
+    <string name="TS501_1">হ্যাঁ</string>
+    <string name="TS501_2">এখন আর না</string>
+    <string name="TS501_3"> কখনোই না</string>
+
+    <string name="TS502">কতদিন হয় তামাকজাত দ্রব্য সেবন ছেড়েছেন?</string>
+    <string name="TS502_1">বছর</string>
+    <string name="TS502_2">মাস</string>
+    <string name="TS502_3">সপ্তাহ</string>
+    <string name="TS502_4">দিন</string>
+
+    <string name="TS503">সেটি কি হারে সেবন করেন</string>
+
+    <string name="TS504">এক বছর আগে এই তামাকজাত দ্রব্য সেবনের মাত্রা কত ছিল?</string>
+    <string name="TS504_1">প্রতিদিন</string>
+    <string name="TS504_2">প্রতিদিনের কম</string>
+    <string name="TS504_3">জানি না</string>
+
+    <string name="TS505">কত বছর আগে আপনি এটি সেবন শুরু করেন?</string>
+    <string name="TS505_1">প্রতিদিন</string>
+    <string name="TS505_2">প্রতিদিনের কম</string>
+    <string name="TS505_3">জানি না</string>
+
+    <string name="TS506">ঘুম থেকে উঠার পর প্রথম কখন তামাকজাত দ্রব্য সেবন করেন?</string>
+    <string name="TS506_1">৫ মিনিটের ভেতর</string>
+    <string name="TS506_2">৬-৩০ মিনিট</string>
+    <string name="TS506_3">৩১-৬০ মিনিট</string>
+    <string name="TS506_4"> ৬০ মিনিটেরও পরে</string>
+
+    <string name="TS507">বিগত এক বছরে কোন ডাক্তার বা স্বাস্থ্যকর্মীর শরণাপন্ন হয়েছিলেন?</string>
+    <string name="TS507_1">হ্যাঁ</string>
+    <string name="TS507_2">না</string>
+
+    <string name="TS508">বিগত এক বছরে কতবার ডাক্তার বা স্বাস্থ্যকর্মীর শরণাপন্ন হয়েছেন?</string>
+
+    <string name="TS509">তাঁরা কি আপনার তামাকজাত দ্রব্য সেবন সম্পর্কে জানতে চেয়েছিলেন?</string>
+    <string name="TS509_1">হ্যাঁ</string>
+    <string name="TS509_2">না</string>
+
+    <string name="TS510">তাঁরা কি আপনাকে তামাকজাত দ্রব্য সেবন ছাড়তে উপদেশ দিয়েছিলেন?</string>
+    <string name="TS510_1">হ্যাঁ</string>
+    <string name="TS510_2">না</string>
+
+    <string name="TS511">আপনি তামাকজাত দ্রব্য সেবনের উপকরন কোথা থেকে কিনেন?</string>
+    <string name="TS511_1">চর থেকে</string>
+    <string name="TS511_2">চরের বাইরে থেকে</string>
+
+    <string name="TS521">বিগত ১২ মাসে তামাকজাত দ্রব্য সেবন ছাড়ার চেষ্টা করেছেন?</string>
+    <string name="TS521_1">হ্যাঁ</string>
+    <string name="TS521_2">না</string>
+
+    <string name="TS522">শেষ যখন তামাকজাত দ্রব্য সেবন ছাড়ার চেষ্টা করেছিলেন কতদিন তামাকজাত দ্রব্য সেবন না করে ছিলেন?</string>
+
+    <string name="TS523">শেষ যখন তামাকজাত দ্রব্য সেবন ছাড়ার চেষ্টা করেছিলেন কতদিন তামাকজাত দ্রব্য সেবন না করে ছিলেন?</string>
+    <string name="TS523_1">বছর </string>
+    <string name="TS523_2">মাস</string>
+    <string name="TS523_3">সপ্তাহ</string>
+    <string name="TS523_4">দিন</string>
+
+    <string name="TS524">আপনি কোন তামাক বিরোধী হস্তক্ষেপ সম্মুখীন হয়েছে?</string>
+    <string name="TS524_1">হ্যাঁ</string>
+    <string name="TS524_2">না</string>
+
+    <string name="TS531">তামাকজাত দ্রব্য সেবনের ক্ষতি নিয়ে নিচের জায়গা গুলোতে কোন নোটিশ দেখেছেন?</string>
+    <string name="TS531_1">সিনেমা</string>
+    <string name="TS531_2">টেলিভিশন</string>
+    <string name="TS531_3">রেডিও</string>
+    <string name="TS531_4">বিলবোর্ড</string>
+    <string name="TS531_5">পোষ্টার</string>
+    <string name="TS531_6">জর্দার দোকান</string>
+    <string name="TS531_7">গণ পরিবহণ</string>
+    <string name="TS531_8">অন্যান্য </string>
+
+    <string name="TS532">তামাকজাত দ্রব্যের প্যাকেটে কোন স্বাস্থ্যঝুঁকির বার্তা লক্ষ্য করেছেন?</string>
+    <string name="TS532_1">হ্যাঁ</string>
+    <string name="TS532_2">না</string>
+
+    <string name="TS533">সেসকল বার্তা তামাকজাত দ্রব্য সেবন ছাড়ার চিন্তা করতে শুরু করিয়েছে?</string>
+    <string name="TS533_1">হ্যাঁ</string>
+    <string name="TS533_2">না</string>
+
+    <string name="TS534">নিচের কোন স্থানে তামাকজাত দ্রব্যের কোন ধরণের বিজ্ঞাপন দেখেছেন?</string>
+    <string name="TS534_1">সিনেমা</string>
+    <string name="TS534_2">টেলিভিশন</string>
+    <string name="TS534_3">রেডিও</string>
+    <string name="TS534_4">বিলবোর্ড</string>
+    <string name="TS534_5">পোষ্টার</string>
+    <string name="TS534_6">জর্দার দোকান</string>
+    <string name="TS534_7">গণ পরিবহণ</string>
+    <string name="TS534_8">অন্যান্য </string>
+
+    <string name="TS535">তামাকজাত দ্রব্যের কোন ধরণের প্রচারণা দেখেছেন?</string>
+    <string name="TS535_1">ফ্রি স্যাম্পল</string>
+    <string name="TS535_2">পাইকারি দরে বিক্রি</string>
+    <string name="TS535_3">কুপন</string>
+    <string name="TS535_4">মূল্যছাড়</string>
+    <string name="TS535_5">জর্দার লোগো সহ কাপড় বা অন্যান্য পণ্য</string>
+
+    <string name="TS541">দিনে কতবার তামাকজাত দ্রব্য সেবন করেন?</string>
+    <string name="TS541_1">দিনপ্রতি হার, নিয়মিত সেবনকারীর জন্য</string>
+
+    <string name="TS542">দিনে কতবার তামাকজাত দ্রব্য সেবন করেন?</string>
+    <string name="TS542_1">সাপ্তাহিক হার, অনিয়মিত সেবনকারীর জন্য</string>
+
+    <string name="TS543">আপনার চাকরি দাতা কি কাজের পূর্বে আপনাকে তামাকজাত দ্রব্য দেন?</string>
+    <string name="TS543_1">হ্যাঁ</string>
+    <string name="TS543_2">না</string>
+
+    <string name="TS544">আপনার চাকরি দাতা কি পরিমাণ তামাকজাত দ্রব্য দেন?</string>
+
+    <string name="TS545">আপনার চাকরি দাতা কি পরিমাণ তামাকজাত দ্রব্য দেন?</string>
+    <string name="TS545_1"> বার</string>
+    <string name="TS545_2"> কৌটা</string>
+
+    <string name="TS546">আপনি কাজের সময় প্রতিদিন কি পরিমাণ তামাকজাত দ্রব্য সেবন করেন?</string>
+
+    <string name="TS547">আপনি কাজের সময় প্রতিদিন কি পরিমাণ তামাকজাত দ্রব্য সেবন করেন?</string>
+
+    <string name="TS548">আপনি কাজের সময় প্রতিদিন কি পরিমাণ তামাকজাত দ্রব্য সেবন করেন?</string>
+    <string name="TS548_1"> বার</string>
+    <string name="TS548_2"> কৌটা</string>
+
+    <string name="TS549">আপনি এর জন্য কত টাকা খরচ করেছেন?</string>
+
+    <!-- end of section 20 -->
+
+
+    <!-- start of section 20b new -->
+
+    <string name="Section_20b">২১বিংশ বিভাগ খঃ প্রসূতি সেবা এবং প্রসূতিকালীন তথ্য</string>
+
+    <string name="DR101">আপনার কতজন সন্তান আছে? [কোন সন্তান না থাকলে ২২বিংশ বিভাগে যান] </string>
+
+    <string name="DR102">আপনার সকল গর্ভাবস্থা কি পূর্ণকালীন ছিল (৯ মাস ১ সপ্তাহ বা তার বেশী)?</string>
+    <string name="DR102_1">হ্যাঁ</string>
+    <string name="DR102_2">না</string>
+
+    <string name="DR103">আপনার প্রথম গর্ভ ধারণের সময় আপনার বয়স কত ছিল?</string>
+
+    <string name="DR104">আপনার প্রথম সন্তান জন্মের সময় আপনার বয়স কত ছিল?</string>
+
+    <string name="DR105">গর্ভধারনাবস্থায় আপনি কোন সমস্যার সম্মুখীন হয়েছিলেন?</string>
+    <string name="DR105_1">হ্যাঁ</string>
+    <string name="DR105_2">না</string>
+
+    <string name="DR106">সর্বশেষ কবে গর্ভের সন্তান মৃত্যুবরণ করেছে বা মৃত সন্তান প্রসব হয়েছে?</string>
+    <string name="DR106_1">৬ মাসেরও কম </string>
+    <string name="DR106_2">৬ মাসের পরে</string>
+
+    <string name="DR107a">আপনার কোন সন্তান গর্ভে বা জন্মের সময় মৃত্যু বরণ করেছে?</string>
+    <string name="DR107a_1">হ্যাঁ</string>
+    <string name="DR107a_2">না</string>
+
+    <string name="DR107b">জন্মের এক বছরের মধ্যে কি আপনার কোন সন্তান দীর্ঘস্থায়ী রোগ ছাড়াই মৃত্যু বরণ করেছে?</string>
+    <string name="DR107b_1">হ্যাঁ</string>
+    <string name="DR107b_2">না</string>
+
+    <string name="DR108">আপনি কি কখনও গর্ভপাত করিয়েছেন?</string>
+    <string name="DR108_1">হ্যাঁ</string>
+    <string name="DR108_2">না</string>
+
+    <string name="DR109">আপনি কি গর্ভনিরোধক ব্যাবহার করেন?</string>
+    <string name="DR109_1">হ্যাঁ</string>
+    <string name="DR109_2">না</string>
+
+    <string name="DR112">বিগত দুই বছরে কখনও যক্ষ্মায় আক্রান্ত হয়েছিলেন?</string>
+    <string name="DR112_1">হ্যাঁ</string>
+    <string name="DR112_2">না</string>
+
+    <string name="DR201">গর্ভাবস্থায় কোন পেশাদারী বিশেষজ্ঞের পরামর্শ নিয়েছিলেন? না হলে পরবর্তী বিভাগে যান</string>
+    <string name="DR201_1">হ্যাঁ</string>
+    <string name="DR201_2">না</string>
+
+    <string name="DR202">গর্ভাবস্থায় কতবার জন্মপূর্ব সেবা সংক্রান্ত পরামর্শ গ্রহন করেছেন?</string>
+
+    <string name="DR203">DR203: আপনি কোথায় জন্মপূর্ব সেবা গ্রহন করেছেন? Code 1</string>
+    <string name="DR203_code1_1">চর স্বাস্থ্য সেবা কেন্দ্র/ কমিউনিটি ক্লিনিক</string>
+    <string name="DR203_code1_2">সরকারী স্বাস্থ্য কর্মী</string>
+    <string name="DR203_code1_3">সরকারী স্যাটেলাইট ক্লিনিক/ ইপিআই আউটরিচ সেন্টার</string>
+    <string name="DR203_code1_4">ইউনিয়ন হেলথ অ্যান্ড ফ্যামিলি ওয়েলফেয়ার সেন্টার</string>
+    <string name="DR203_code1_5">পউপজেলা স্বাস্থ্য কেন্দ্র</string>
+    <string name="DR203_code1_6">ম্যাটারনাল অ্যান্ড চাইল্ড ওয়েলফেয়ার সেন্টার (এমসিডব্লিউসি)</string>
+    <string name="DR203_code1_7">সরকারী বিভাগ/সদর/জেনারেল হাসপাতাল</string>
+    <string name="DR203_code1_8">সরকারী মেডীকেল কলেজ/বিশেষজ্ঞ হাসপাতাল</string>
+    <string name="DR203_code1_9">অন্যান্য সরকারী স্বাস্থ্য সেবা সুবিধা</string>
+    <string name="DR203_code1_10">এনজিও স্বাস্থ্য কর্মী / স্যাটেলাইট ক্লিনিক</string>
+    <string name="DR203_code1_11">এনজিও ক্লিনিক/হাসপাতাল</string>
+    <string name="DR203_code1_12">প্রাইভেট ক্লিনিক/হাসপাতাল</string>
+    <string name="DR203_code1_13">প্রাইভেট মেডিকেল কলেজ/বিশেষায়িত হাসপাতাল</string>
+    <string name="DR203_code1_14">বিশেষজ্ঞ ডাক্তার</string>
+    <string name="DR203_code1_15">সাধারণ ডাক্তার</string>
+    <string name="DR203_code1_16">ফার্মেসি/ডিস্পেন্সারি</string>
+    <string name="DR203_code1_17">হোমিওপ্যাথ</string>
+    <string name="DR203_code1_18">আয়ুর্বেদ/কবিরাজ/হাকিম</string>
+    <string name="DR203_code1_19">ওঝা</string>
+    <string name="DR203_code1_20">পারিবারিক/নিজস্ব চিকিৎসা</string>
+    <string name="DR203_code1_21">অন্যান্য (উল্লেখ করুন)</string>
+
+    <string name="DR204">আপনাকে কি খাদ্যাভ্যাস সমৃদ্ধ করতে উপদেশ দেয়া হয়েছিলো?</string>
+    <string name="DR204_1">হ্যাঁ</string>
+    <string name="DR204_2">না</string>
+
+    <string name="DR205">DR205: নিম্নোক্ত কোন পরীক্ষা করতে উপদেশ দেয়া হয়েছিলো?</string>
+    <string name="DR205_1">আল্ট্রাসনোগ্রাম</string>
+    <string name="DR205_2">কমপ্লিট ব্লাড কাউন্ট (সিবিসি) </string>
+    <string name="DR205_3">রক্তের গ্রুপ নির্ণয়</string>
+    <string name="DR205_4">রক্তের গ্লুকোজ পরীক্ষা </string>
+    <string name="DR205_5">নিয়মিত মূত্র পরীক্ষা</string>
+    <string name="DR205_6">হেপাটাইটিস বি পরীক্ষা (HBsAg)</string>
+
+    <string name="DR206">DR206: যদি করে থাকেন, তবে কতবার আল্ট্রাসনোগ্রাম করিয়েছেন?</string>
+
+    <string name="DR207">গর্ভাবস্থায় নিয়মিতভাবে কোন ওষুধ সেবন করতে উপদেশ দেয়া হয়েছিলো?</string>
+    <string name="DR207_1">হ্যাঁ</string>
+    <string name="DR207_2">না</string>
+
+    <!-- end of section 20b new -->
+
+    <!-- start of 21c -->
+
+    <string name="Section_21c">২১বিংশ বিভাগ গঃ সন্তান জন্ম, প্রসোবত্তর যত্ন, শিশুর মায়ের দুধ পান এবং গর্ভধারণাবস্থায় মায়ের তামাক জাত দ্রব্য ব্যাবহার</string>
+
+    <string name="DR301">গর্ভাবস্থার কত তম সপ্তাহে সন্তান প্রসব করেন?</string>
+    <string name="DR301_1">৯ মাস ১ সপ্তাহের কম</string>
+    <string name="DR301_2">৯ মাস ১ সপ্তাহের বেশি </string>
+
+    <string name="DR302">কোথায় সন্তান প্রসব করেন?</string>
+    <string name="DR302_1">স্বাস্থ্য কেন্দ্র</string>
+    <string name="DR302_2">বাড়ি</string>
+    <string name="DR302_3">অন্যান্য (উল্লেখ করুন)</string>
+
+    <string name="DR303">বাড়িতে করে থাকলে, নিম্নোক্ত কোন প্রশিক্ষণ প্রাপ্ত ব্যাক্তি উপস্থিত ছিলেন?</string>
+    <string name="DR303_1">দাইমা</string>
+    <string name="DR303_2">কমিউনিটি ক্লিনিক ডাক্তার</string>
+    <string name="DR303_3">পরামর্শক</string>
+    <string name="DR303_4">অন্যান্য (উল্লেখ করুন)</string>
+
+    <string name="DR304">প্রসবের ধরণ</string>
+    <string name="DR304_1">সাধারণ প্রসব</string>
+    <string name="DR304_2">অস্ত্রোপচার</string>
+
+    <string name="DR305">কতক্ষণ ধরে প্রসব বেদনা ছিল?</string>
+    <string name="DR305_1">১২ ঘন্টার কম</string>
+    <string name="DR305_2">১২ ঘন্টার বেশি</string>
+
+    <string name="DR306">১২ ঘন্টার বেশি প্রসব বেদনা থেকে থাকলে কি করে সন্তান প্রসব করানো হয়েছিলো?</string>
+    <string name="DR306_1">সাধারণভাবে</string>
+    <string name="DR306_2">অক্সিটোসিন ইনজেকশন</string>
+    <string name="DR306_3">যন্ত্রের সাহায্যে</string>
+
+    <string name="DR307">সন্তান জন্মের পরপর কোন শিশুরোগ বিশেষজ্ঞকে দেখানো হয়েছিলো?</string>
+    <string name="DR307_1"> হ্যাঁ</string>
+    <string name="DR307_2">না</string>
+
+    <string name="DR308">জন্মের কতক্ষণ পরে শিশু কান্না শুরু করে?</string>
+    <string name="DR308_1">অতিসত্বর</string>
+    <string name="DR308_2">৫ মিনিটেরও পরে</string>
+
+    <string name="DR309">শিশুকে জন্মের পর ভিটামিন কে দেয়া হয়েছিলো?</string>
+    <string name="DR309_1"> হ্যাঁ</string>
+    <string name="DR309_2">না</string>
+
+    <string name="DR310">শিশুকে নবজাতক নিবিড় পরিচর্যা কেন্দ্রে (NICO) রাখা হয়েছিলো?</string>
+    <string name="DR310_1"> হ্যাঁ</string>
+    <string name="DR310_2">না</string>
+
+    <string name="DR311">প্রসবকালীন সময়ে কোন সমস্যা দেখা দিয়েছিল?</string>
+    <string name="DR311_1">হ্যাঁ</string>
+    <string name="DR311_2">না</string>
+
+    <string name="DR401">সন্তান জন্মের পর জন্ম পরবর্তী সেবা সম্পর্কে পরামর্শ নিতে ডাক্তারের কাছে গিয়েছিলেন?</string>
+    <string name="DR401_1">হ্যাঁ</string>
+    <string name="DR401_2">না</string>
+
+    <string name="DR402">সন্তান জন্মের এক বছরের মধ্যে কতবার ডাক্তারের কাছে গিয়েছেন?</string>
+
+    <string name="DR403">সন্তানকে টীকা দিতে পরামর্শ পেয়েছিলেন? </string>
+    <string name="DR403_1">হ্যাঁ</string>
+    <string name="DR403_2">না</string>
+
+    <string name="DR404">আপনার সন্তানকে কি সব টীকা দেয়া হয়েছিলো?</string>
+    <string name="DR404_1">হ্যাঁ</string>
+    <string name="DR404_2">না</string>
+
+    <string name="DR405">১২ মাসের মধ্যে সন্তান হাটা শুরু করেছিলো?</string>
+    <string name="DR405_1">হ্যাঁ</string>
+    <string name="DR405_2">না</string>
+
+    <string name="DR406">১৮ মাসের মধ্যে পূর্ণ শব্দ বলা শুরু করেছিলো?</string>
+    <string name="DR406_1">হ্যাঁ</string>
+    <string name="DR406_2">না</string>
+
+    <string name="DR501">৬ মাস শুধুমাত্র বুকের দুধ খাইয়েছিলেন?</string>
+    <string name="DR501_1">হ্যাঁ</string>
+    <string name="DR501_2">না</string>
+
+    <string name="DR502">কত বছর পর্যন্ত বুকের দুধ খাইয়েছিলেন?</string>
+
+    <string name="DR503">বুকের দুধ খাওয়ানোর প্রথম ৬ মাসের মধ্যে কি আপনার সন্তানের বারবার ডায়রিয়া হত?</string>
+    <string name="DR503_1">হ্যাঁ</string>
+    <string name="DR503_2">না</string>
+
+    <string name="DR504">হ্যাঁ হলে, ৬ মাসে কতবার</string>
+    <string name="DR504_1">১-২</string>
+    <string name="DR504_2">৩-৪</string>
+    <string name="DR504_3">৫-৬</string>
+    <string name="DR504_4">৬ এর অধিক</string>
+
+    <string name="DR601">গর্ভধারণের আগে নিয়মিত তামাকজাত দ্রব্য সেবন করতেন?</string>
+    <string name="DR601_1">হ্যাঁ</string>
+    <string name="DR601_2">না</string>
+
+    <string name="DR602">কি ধরণের তামাক জাত দ্রব্য সেবন করতেন?</string>
+    <string name="DR602_1">সিগারেট</string>
+    <string name="DR602_2"> বিড়ি</string>
+    <string name="DR602_3">জর্দা/ পান+জর্দা</string>
+    <string name="DR602_4">গুল</string>
+
+    <string name="DR603">গর্ভাবস্থায় তামাকজাত দ্রব্য সেবন বন্ধ করতে পরামর্শ পেয়েছিলেন?</string>
+    <string name="DR603_1">হ্যাঁ</string>
+    <string name="DR603_2">না</string>
+
+    <string name="DR604">গর্ভধারণের পর তামাকজাত দ্রব্য সেবন বন্ধ করেছিলেন?</string>
+    <string name="DR604_1">হ্যাঁ</string>
+    <string name="DR604_2">না</string>
+
+    <string name="DR605">কি মাত্রায় তামাকজাত দ্রব্য সেবন করতেন?</string>
+    <string name="DR605_1">প্রতিদিন</string>
+    <string name="DR605_2">প্রতিদিনের কম</string>
+    <string name="DR605_3">জানি না</string>
+
+    <string name="DR606">সন্তান জন্মের পর পুনরায় তামাক জাত দ্রব্য সেবন শুরু করেন?</string>
+    <string name="DR606_1">হ্যাঁ</string>
+    <string name="DR606_2">না</string>
+
+    <string name="DR607">সন্তান জন্মের কত মাস পর তামাক জাত দ্রব্য সেবন শুরু করেন?</string>
+
+    <string name="DR608">তামাক জাত দ্রব্য সেবন শুরু করার সময় কি শিশুকে বুকের দুধ খাওয়াচ্ছিলেন?</string>
+    <string name="DR608_1">হ্যাঁ</string>
+    <string name="DR608_2">না</string>
+
+    <string name="DR609">হ্যাঁ হয়ে থাকলে আপনি কি ওই সময় আপনার তামাক সেবনের মাত্রা পরিবর্তন করেছিলেন?</string>
+    <string name="DR609_1">কমানো হয়েছিলো</string>
+    <string name="DR609_2">বাড়ানো হয়েছিলো</string>
+    <string name="DR609_3">কোন পরিবর্তন হয়নি</string>
+
+    <!-- end of 21c -->
+
+
+
+
+
+
+</resources>
