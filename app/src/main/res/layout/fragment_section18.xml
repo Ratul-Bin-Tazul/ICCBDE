@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/LinearLay_consent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp">
+
+
+
+            <Button
+                android:text="section18a"
+                android:id="@+id/btn_section18a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--start of section 18a -->
+
+            <!--end of section 18a -->
+
+            <Button
+                android:text="section18b"
+                android:id="@+id/btn_section18b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--start of section 18b -->
+
+            <!--end of section 18b -->
+
+            <Button
+                android:text="section18c"
+                android:id="@+id/btn_section18c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--start of section 18c -->
+
+            <!--end of section 18c -->
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

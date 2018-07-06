@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/LinearLay_consent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp">
+
+
+            <Button
+                android:text="@string/Section_2"
+                android:id="@+id/btn_section2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--start of section 2 -->
+
+            <LinearLayout
+                android:id="@+id/LinearLay_section2"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV102"
+                        android:textSize="@dimen/font_size"
+                        />
+                    <EditText
+                        android:id="@+id/et_hv102_mid1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/colordivide"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV103"
+                        android:textSize="@dimen/font_size"
+
+                        />
+
+                    <Spinner
+                        android:id="@+id/spinner_hv103_mid1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV104"
+                        android:textSize="@dimen/font_size"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/rg_hv104_mid1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/rbt_yes_hv104_mid1"
+                            android:text="@string/ha"
+                            android:textSize="@dimen/font_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+
+                        <RadioButton
+                            android:id="@+id/rbt_no_hv104_mid1"
+                            android:text="@string/na"
+                            android:textSize="@dimen/font_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/colordivide"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV105"
+                        android:textSize="@dimen/font_size"
+                        />
+
+                    <EditText
+                        android:id="@+id/AgeYears"
+                        android:hint="year"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/AgeMonths"
+                        android:hint="month"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV106"
+                        android:textSize="@dimen/font_size"/>
+
+                    <RadioGroup
+                        android:id="@+id/rg_hv106_mid1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/rbt_male_hv106_mid1"
+                            android:text="@string/HV106_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_size"
+                            />
+
+                        <RadioButton
+                            android:id="@+id/rbt_female_hv106_mid1"
+                            android:text="@string/HV106_2"
+                            android:textSize="@dimen/font_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV107"
+                        android:textSize="@dimen/font_size"/>
+
+                    <RadioGroup
+                        android:id="@+id/rg_hv107_mid1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/rbt_yes_hv107_mid1"
+                            android:text="@string/ha"
+                            android:textSize="@dimen/font_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+
+                        <RadioButton
+                            android:id="@+id/rbt_no_hv107_mid1"
+                            android:text="@string/na"
+                            android:textSize="@dimen/font_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/colordivide"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV108"
+                        android:textSize="@dimen/font_size"
+                        android:layout_weight="1"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/rg_hv108_mid1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <RadioButton
+                            android:id="@+id/rbt_yes_hv108_mid1"
+                            android:text="@string/ha"
+                            android:textSize="@dimen/font_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+
+                        <RadioButton
+                            android:id="@+id/rbt_no_hv108_mid1"
+                            android:text="@string/na"
+                            android:textSize="@dimen/font_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV109"
+                        android:textSize="@dimen/font_size"
+                        android:layout_weight="1"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/rg_hv109_mid1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <RadioButton
+                            android:id="@+id/rbt_yes_hv109_mid1"
+                            android:text="@string/ha"
+                            android:textSize="@dimen/font_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+
+                        <RadioButton
+                            android:id="@+id/rbt_no_hv109_mid1"
+                            android:text="@string/na"
+                            android:textSize="@dimen/font_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colordivide"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_hv110"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV110"
+                        android:textSize="@dimen/font_size"
+
+                        />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+                        <RadioGroup
+                            android:id="@+id/rg_hv110_mid1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <RadioButton
+                                android:id="@+id/rbt_1_hv110_mid1"
+                                android:text="@string/HV110_code2_1"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_2_hv110_mid1"
+                                android:text="@string/HV110_code2_2"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_3_hv110_mid1"
+                                android:text="@string/HV110_code2_3"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_4_hv110_mid1"
+                                android:text="@string/HV110_code2_4"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_5_hv110_mid1"
+                                android:text="@string/HV110_code2_5"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_6_hv110_mid1"
+                                android:text="@string/HV110_code2_6"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+
+                        </RadioGroup>
+
+                        <EditText
+                            android:id="@+id/et_hv110_others_mid1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/HV205_6"
+                            android:textSize="@dimen/font_size"
+
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/HV111"
+                        android:textSize="@dimen/font_size"
+                        />
+
+                    <Spinner
+                        android:id="@+id/spinner_hv111_mid1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/colordivide"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV112"
+                        android:textSize="@dimen/font_size"
+                        />
+
+                    <EditText
+                        android:id="@+id/et_hv112"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV113"
+                        android:textSize="@dimen/font_size"
+                        />
+
+                    <EditText
+                        android:id="@+id/et_hv113"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/colordivide"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV114"
+                        android:textSize="@dimen/font_size"
+
+                        />
+
+                    <Spinner
+                        android:id="@+id/spinner_hv114_mid1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colordivide"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_hv115_mid1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV115"
+                        android:textSize="@dimen/font_size"
+
+                        />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+                        <RadioGroup
+                            android:id="@+id/rg_hv115"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <RadioButton
+                                android:id="@+id/rbt_1_hv115"
+                                android:text="@string/HV115_code5_0"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_2_hv115"
+                                android:text="@string/HV115_code5_1"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_3_hv115"
+                                android:text="@string/HV115_code5_2"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_4_hv115"
+                                android:text="@string/HV115_code5_3"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_5_hv115"
+                                android:text="@string/HV115_code5_4"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_6_hv115"
+                                android:text="@string/HV115_code5_5"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_7_hv115"
+                                android:text="@string/HV115_code5_6"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_8_hv115"
+                                android:text="@string/HV115_code5_7"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_9_hv115"
+                                android:text="@string/HV115_code5_8"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_10_hv115"
+                                android:text="@string/HV115_code5_9"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_11_hv115"
+                                android:text="@string/HV115_code5_10"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_12_hv115"
+                                android:text="@string/HV115_code5_11"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_13_hv115"
+                                android:text="@string/HV115_code5_12"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_14_hv115"
+                                android:text="@string/HV115_code5_13"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_15_hv115"
+                                android:text="@string/HV115_code5_4"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_16_hv115"
+                                android:text="@string/HV115_code5_15"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+
+                        </RadioGroup>
+
+                        <EditText
+                            android:id="@+id/et_hv115_others_mid1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/HV205_6"
+                            android:textSize="@dimen/font_size"
+
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/colordivide"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV116"
+                        android:textSize="@dimen/font_size"
+                        android:layout_weight="1"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/rg_hv116_mid1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <RadioButton
+                            android:id="@+id/earnsYes"
+                            android:text="@string/ha"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_size"
+                            />
+
+                        <RadioButton
+                            android:id="@+id/earnsNo"
+                            android:text="@string/na"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_size"
+                            />
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colordivide"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_hv117_mid1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV117"
+                        android:textSize="@dimen/font_size"
+
+                        />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+                        <RadioGroup
+                            android:id="@+id/rg_hv117_mid1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <RadioButton
+                                android:id="@+id/rbt_1_hv117_mid1"
+                                android:text="@string/HV117_code6_1"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_2_hv117_mid1"
+                                android:text="@string/HV117_code6_2"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_3_hv117_mid1"
+                                android:text="@string/HV117_code6_3"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_4_hv117_mid1"
+                                android:text="@string/HV117_code6_4"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_5_hv117_mid1"
+                                android:text="@string/HV117_code6_5"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_6_hv117_mid1"
+                                android:text="@string/HV117_code6_6"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_7_hv117_mid1"
+                                android:text="@string/HV117_code6_7"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_8_hv117_mid1"
+                                android:text="@string/HV117_code6_8"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rbt_9_hv117_mid1"
+                                android:text="@string/HV117_code6_9"
+                                android:textSize="@dimen/font_size"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+
+                        </RadioGroup>
+
+                        <EditText
+                            android:id="@+id/et_hv117_others_mid1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/HV205_6"
+                            android:textSize="@dimen/font_size"
+
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/colordivide"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HV118"
+                        android:textSize="@dimen/font_size"
+
+                        />
+
+                    <Spinner
+                        android:id="@+id/spinner_hv118_mid1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--end of section 2 -->
+
+
+    </LinearLayout>
+</ScrollView>

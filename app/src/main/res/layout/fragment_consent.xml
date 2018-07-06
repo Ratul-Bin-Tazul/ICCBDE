@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_consent"
+        android:text="Consent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--start of section consent -->
+
+    <LinearLayout
+        android:id="@+id/LinearLay_consent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="50dp">
+        <TextView
+            android:id="@+id/tv_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/head"
+            android:textSize="@dimen/font_size"
+            android:background="@color/colordivide"
+            />
+
+        <TextView
+            android:id="@+id/tv_consent_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/consent_text"
+            android:textSize="@dimen/font_size"
+            />
+
+        <TextView
+            android:id="@+id/tv_consent_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/consent1"
+            android:textSize="@dimen/font_size"
+            android:background="@color/colordivide"
+            />
+
+        <RadioGroup
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colordivide">
+
+            <RadioButton
+                android:text="@string/ha_goTo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"/>
+
+            <RadioButton
+                android:text="@string/na_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv_consent_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/consent2"
+            android:textSize="@dimen/font_size"
+
+            />
+
+        <RadioGroup
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RadioButton
+                android:text="@string/ha_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"/>
+
+            <RadioButton
+                android:text="@string/na_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bord"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

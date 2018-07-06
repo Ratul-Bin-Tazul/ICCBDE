@@ -35,7 +35,6 @@
     <string name="HHID">HHID</string>
 
 
-
     <string name="HV002">স্ত্রীর নাম</string>
 
     <string name="HV003">ধর্ম</string>
@@ -406,7 +405,6 @@
     <string name="HD100_2">না</string>
 
 
-
     <string name="HD102">বিয়ের সময় বয়স</string>
 
     <string name="HD114">আপনার কত তম ছেলে সন্তানের পুত্র বধু?</string>
@@ -555,8 +553,6 @@
     <string name="unit">unit</string>
 
     <!--end of section 8a-->
-
-
 
 
     <!-- start of section 8b -->
@@ -1085,7 +1081,6 @@
     <string name="HR208_2"> না</string>
 
     <string name="HR201_member1"> member 1</string>
-
 
 
     <!-- end of section 15 -->
@@ -1643,7 +1638,7 @@
 
     <!-- start of section 20b new -->
 
-    <string name="Section_20b">২১বিংশ বিভাগ খঃ প্রসূতি সেবা এবং প্রসূতিকালীন তথ্য</string>
+    <string name="Section_20b">২0 বিভাগ খঃ প্রসূতি সেবা এবং প্রসূতিকালীন তথ্য</string>
 
     <string name="DR101">আপনার কতজন সন্তান আছে? [কোন সন্তান না থাকলে ২২বিংশ বিভাগে যান] </string>
 
@@ -1734,7 +1729,7 @@
 
     <!-- start of 21c -->
 
-    <string name="Section_21c">২১বিংশ বিভাগ গঃ সন্তান জন্ম, প্রসোবত্তর যত্ন, শিশুর মায়ের দুধ পান এবং গর্ভধারণাবস্থায় মায়ের তামাক জাত দ্রব্য ব্যাবহার</string>
+    <string name="Section_21c">২0 বিভাগ গঃ সন্তান জন্ম, প্রসোবত্তর যত্ন, শিশুর মায়ের দুধ পান এবং গর্ভধারণাবস্থায় মায়ের তামাক জাত দ্রব্য ব্যাবহার</string>
 
     <string name="DR301">গর্ভাবস্থার কত তম সপ্তাহে সন্তান প্রসব করেন?</string>
     <string name="DR301_1">৯ মাস ১ সপ্তাহের কম</string>
@@ -1860,11 +1855,10 @@
     <string name="DR609_2">বাড়ানো হয়েছিলো</string>
     <string name="DR609_3">কোন পরিবর্তন হয়নি</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <!-- end of 21c -->
-
-
-
-
 
 
 </resources>
