@@ -12,10 +12,10 @@ import com.devai.rasik.iccbde.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Section34Fragment extends Fragment {
+public class Section3_4Fragment extends Fragment {
 
 
-    public Section34Fragment() {
+    public Section3_4Fragment() {
         // Required empty public constructor
     }
 

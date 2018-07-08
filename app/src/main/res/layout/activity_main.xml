@@ -13,16 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <LinearLayout
-            android:id="@+id/LinearLay_consent"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="50dp">
-
-
-
-        </LinearLayout>
 
         <FrameLayout
             android:id="@+id/mainFrame"
@@ -32,69 +22,32 @@
 
         </FrameLayout>
 
-
-
-
-            <Button
-                android:text="section20c"
-                android:id="@+id/btn_section21a"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <!--start of section 20c -->
-
-            <!--end of section 20c -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
 
             <Button
-                android:text="section20c"
-                android:id="@+id/btn_section21b"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <!--start of section 20c -->
-
-
-
-
-
-
-            <!--end of section 21b -->
-
+                android:id="@+id/prevBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:text="Prev"
+                android:backgroundTint="@color/colorAccent"
+                android:layout_margin="10dp"/>
 
             <Button
-                android:text="section22"
-                android:id="@+id/btn_section22"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:id="@+id/nextBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:text="Next"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_margin="10dp"/>
 
-            <!--start of section 22 -->
-
-            <!--end of section 22 -->
-
-            <Button
-                android:text="section23"
-                android:id="@+id/btn_section23"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <!--start of section 23 -->
-
-            <!--end of section 23 -->
-
-
-            <Button
-                android:text="section24"
-                android:id="@+id/btn_section24"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <!--start of section 24 -->
-
-            <!--end of section 24 -->
-
-
-
-
-
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

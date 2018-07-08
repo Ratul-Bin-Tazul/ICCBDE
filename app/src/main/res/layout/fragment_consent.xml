@@ -54,7 +54,7 @@
             />
 
         <RadioGroup
-
+            android:id="@+id/consentMale"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colordivide">
@@ -83,7 +83,7 @@
             />
 
         <RadioGroup
-
+            android:id="@+id/consentFemale"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 

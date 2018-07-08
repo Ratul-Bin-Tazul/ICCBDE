@@ -205,7 +205,7 @@
                     android:background="@color/colordivide">
 
                     <TextView
-                        android:id="@+id/tv_hv004"
+                        android:id="@+id/tv_hv005"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
@@ -225,6 +225,58 @@
 
                 </LinearLayout>
 
+                <!--<LinearLayout-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--&gt;-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_hv006"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/HV006"-->
+                        <!--android:textSize="@dimen/font_size"-->
+
+                        <!--/>-->
+
+                    <!--<EditText-->
+                        <!--android:id="@+id/et_hv006"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--/>-->
+
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@color/colordivide">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_hv007"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/HV007"-->
+                        <!--android:textSize="@dimen/font_size"-->
+
+                        <!--/>-->
+
+                    <!--<EditText-->
+                        <!--android:id="@+id/et_hv007"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--/>-->
+
+
+                <!--</LinearLayout>-->
+
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
@@ -232,37 +284,11 @@
                     >
 
                     <TextView
-                        android:id="@+id/tv_hv006"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="wrap_content"
-                        android:text="@string/HV006"
-                        android:textSize="@dimen/font_size"
-
-                        />
-
-                    <EditText
-                        android:id="@+id/et_hv006"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="wrap_content"
-                        />
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/colordivide">
-
-                    <TextView
                         android:id="@+id/tv_hv007"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:text="@string/HV007"
+                        android:text="@string/HV008"
                         android:textSize="@dimen/font_size"
 
                         />
@@ -281,14 +307,14 @@
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    >
+                    android:background="@color/colordivide">
 
                     <TextView
                         android:id="@+id/tv_hv008"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:text="@string/HV008"
+                        android:text="@string/HV009"
                         android:textSize="@dimen/font_size"
 
                         />
@@ -307,14 +333,14 @@
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/colordivide">
+                    >
 
                     <TextView
                         android:id="@+id/tv_hv009"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:text="@string/HV009"
+                        android:text="@string/HV010"
                         android:textSize="@dimen/font_size"
 
                         />
@@ -333,14 +359,14 @@
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    >
+                    android:background="@color/colordivide">
 
                     <TextView
-                        android:id="@+id/tv_hv0010"
+                        android:id="@+id/tv_hv010"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:text="@string/HV010"
+                        android:text="@string/HV011"
                         android:textSize="@dimen/font_size"
 
                         />
@@ -353,20 +379,23 @@
                         />
 
 
+
+
+
                 </LinearLayout>
 
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/colordivide">
+                    >
 
                     <TextView
                         android:id="@+id/tv_hv011"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:text="@string/HV011"
+                        android:text="@string/HV012"
                         android:textSize="@dimen/font_size"
 
                         />
@@ -385,14 +414,14 @@
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    >
+                    android:background="@color/colordivide">
 
                     <TextView
                         android:id="@+id/tv_hv012"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:text="@string/HV012"
+                        android:text="@string/HV013"
                         android:textSize="@dimen/font_size"
 
                         />
@@ -411,14 +440,14 @@
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/colordivide">
+                    >
 
                     <TextView
                         android:id="@+id/tv_hv013"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:text="@string/HV013"
+                        android:text="@string/HV014"
                         android:textSize="@dimen/font_size"
 
                         />
@@ -437,14 +466,14 @@
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    >
+                    android:background="@color/colordivide">
 
                     <TextView
                         android:id="@+id/tv_hv014"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:text="@string/HV014"
+                        android:text="@string/HV015"
                         android:textSize="@dimen/font_size"
 
                         />
@@ -463,37 +492,11 @@
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/colordivide">
-
-                    <TextView
-                        android:id="@+id/tv_hv015"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="wrap_content"
-                        android:text="@string/HV015"
-                        android:textSize="@dimen/font_size"
-
-                        />
-
-                    <EditText
-                        android:id="@+id/et_hv015"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="wrap_content"
-                        />
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:background="@color/colordivide"
                     >
 
                     <TextView
-                        android:id="@+id/tv_hv016"
+                        android:id="@+id/tv_hv015"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
@@ -509,7 +512,7 @@
                         android:layout_height="wrap_content">
 
                         <RadioGroup
-                            android:id="@+id/rg_hv016"
+                            android:id="@+id/rg_hv015"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content">
 
